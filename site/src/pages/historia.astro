@@ -1,6 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-import brasao from '../assets/brasao.jpeg';
+import brasao from '../assets/brasao.svg';
 import Base from '../layouts/Base.astro';
 import { filhosDiretos, TRONCO_VICTOR } from '../lib/arvore';
 
@@ -72,7 +71,7 @@ const ramos = filhosDiretos(TRONCO_VICTOR);
     </div>
 
     <aside>
-      <Image src={brasao} alt="Brasão da Família Dumont" width={420} />
+      <img src={brasao.src} alt="Brasão da Família Dumont" width="640" height="834" />
       <p>Brasão da Família Dumont</p>
     </aside>
   </section>
@@ -91,9 +90,6 @@ const ramos = filhosDiretos(TRONCO_VICTOR);
     text-align: center;
     font-size: 0.9rem;
     color: var(--tinta-suave);
-  }
-  aside img {
-    mix-blend-mode: multiply;
   }
   .destinos {
     padding: 0;

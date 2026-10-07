@@ -1,6 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-import brasao from '../assets/brasao.jpeg';
+import brasao from '../assets/brasao.svg';
 import { MENU, SITE } from '../config';
 import '../styles/global.css';
 
@@ -25,14 +24,14 @@ const ativo = (href: string) => (href === '/' ? caminho === '/' : caminho.starts
     <meta property="og:title" content={tituloCompleto} />
     <meta property="og:description" content={descricao} />
     <meta property="og:type" content="website" />
-    <link rel="icon" href={brasao.src} />
+    <link rel="icon" type="image/svg+xml" href={brasao.src} />
   </head>
   <body>
     <a class="pular" href="#conteudo">Pular para o conteúdo</a>
     <header class="topo">
       <div class="container topo-interno">
         <a class="marca" href="/">
-          <Image src={brasao} alt="" width={96} height={96} />
+          <img src={brasao.src} alt="" width="40" height="52" />
           <span>Família <strong>Dumont</strong></span>
         </a>
         <button class="menu-botao" aria-expanded="false" aria-controls="menu">Menu</button>
@@ -122,10 +121,8 @@ const ativo = (href: string) => (href === '/' ? caminho === '/' : caminho.starts
     text-decoration: none;
   }
   .marca img {
-    width: 3rem;
-    height: 3rem;
-    object-fit: contain;
-    mix-blend-mode: multiply;
+    width: auto;
+    height: 3.25rem;
   }
   .marca strong {
     color: var(--vinho);
