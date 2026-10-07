@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { formatarData } from '../../config';
+
+const artigos = (await getCollection('blog', (a) => !a.data.rascunho)).sort(
+  (a, b) => b.data.data.valueOf() - a.data.data.valueOf(),
+);
+---
+
+<Base titulo="Blog" descricao="Artigos sobre a origem, a história e a memória da Família Dumont.">
+  <section class="container cabecalho-pagina">
+    <p class="sobretitulo">Blog</p>
+    <h1>Memória e história</h1>
+    <p class="lead estreito">Artigos sobre a origem da família, os lugares por onde ela passou e as pessoas que a formaram.</p>
+  </section>
+
+  <section class="container secao">
+    <div class="grade">
+      {
+        artigos.map((a) => (
+          <a class="cartao" href={`/blog/${a.id}/`}>
+            <p class="meta">{formatarData(a.data.data)}</p>
+            <h3>{a.data.titulo}</h3>
+            <p>{a.data.resumo}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>

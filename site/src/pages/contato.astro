@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+---
+
+<Base titulo="Contato" descricao="Fale com a Família Dumont: envie sua linha da família, fotos, documentos ou correções para a árvore genealógica.">
+  <section class="container cabecalho-pagina">
+    <p class="sobretitulo">Contato</p>
+    <h1>Fale com a família</h1>
+    <p class="lead estreito">
+      Tem fotos, documentos ou histórias? Encontrou um nome errado na árvore, ou quer incluir a sua linha da família?
+      Escreva para nós.
+    </p>
+  </section>
+
+  <section class="container secao estreito">
+    <form id="contato" data-email={SITE.emailContato}>
+      <label>
+        Seu nome
+        <input name="nome" required autocomplete="name" />
+      </label>
+      <label>
+        Assunto
+        <select name="assunto">
+          <option value="arvore">Incluir ou corrigir alguém na árvore</option>
+          <option value="historia">Fotos, documentos ou histórias</option>
+          <option value="eventos">Eventos da família</option>
+          <option value="outro">Outro assunto</option>
+        </select>
+      </label>
+      <label data-so="arvore">
+        De quem você descende?
+        <input name="linha" placeholder="Nome dos seus pais, avós e, se souber, bisavós" />
+        <small>Quanto mais para trás você souber, mais fácil ligar você à árvore.</small>
+      </label>
+      <label>
+        Mensagem
+        <textarea name="mensagem" rows="6" required></textarea>
+      </label>
+      <button class="botao" type="submit">Enviar mensagem</button>
+      <p id="retorno" role="status"></p>
+    </form>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('contato') as HTMLFormElement;
+  const retorno = document.getElementById('retorno')!;
+  const assunto = form.elements.namedItem('assunto') as HTMLSelectElement;
+  const soArvore = form.querySelector<HTMLElement>('[data-so="arvore"]')!;
+
+  const pedido = new URLSearchParams(location.search).get('assunto');
+  if (pedido && [...assunto.options].some((o) => o.value === pedido)) assunto.value = pedido;
+  const alternar = () => (soArvore.hidden = assunto.value !== 'arvore');
+  assunto.addEventListener('change', alternar);
+  alternar();
+
+  // Sem servidor por enquanto: o formulário abre o programa de e-mail do visitante com a mensagem pronta.
+  form.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+    const email = form.dataset.email;
+    if (!email) {
+      retorno.textContent = 'O e-mail de contato do site ainda não foi configurado.';
+      return;
+    }
+    const dados = new FormData(form);
+    const corpo = [
+      `Nome: ${dados.get('nome')}`,
+      assunto.value === 'arvore' && dados.get('linha') ? `Descendo de: ${dados.get('linha')}` : '',
+      '',
+      String(dados.get('mensagem')),
+    ]
+      .filter((linha, i) => linha || i === 2)
+      .join('\n');
+    const titulo = `[Família Dumont] ${assunto.selectedOptions[0].text}`;
+    location.href = `mailto:${email}?subject=${encodeURIComponent(titulo)}&body=${encodeURIComponent(corpo)}`;
+    retorno.textContent = 'Abrimos o seu programa de e-mail com a mensagem pronta. É só enviar.';
+  });
+</script>
+
+<style>
+  form {
+    display: grid;
+    gap: 1.2rem;
+  }
+  label {
+    display: grid;
+    gap: 0.3rem;
+    font-weight: 600;
+  }
+  input,
+  select,
+  textarea {
+    padding: 0.7rem 0.8rem;
+    border: 1px solid var(--linha);
+    border-radius: 2px;
+    background: #fff;
+    font: inherit;
+    font-weight: 400;
+  }
+  small {
+    font-weight: 400;
+    color: var(--tinta-suave);
+  }
+  button {
+    justify-self: start;
+  }
+  #retorno {
+    margin: 0;
+    color: var(--tinta-suave);
+  }
+</style>

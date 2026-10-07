@@ -1,0 +1,124 @@
+---
+import { Image } from 'astro:assets';
+import brasao from '../assets/brasao.jpeg';
+import Base from '../layouts/Base.astro';
+import { filhosDiretos, TRONCO_VICTOR } from '../lib/arvore';
+
+const destinos: Record<string, string> = {
+  r1: 'Região de Montes Claros',
+  r2: 'Curvelo',
+  r3: 'Serro e Senhora do Porto',
+  r4: 'Entre Diamantina e Serro',
+  r5: 'Entre Diamantina e Serro',
+  r6: 'Entre Diamantina e Serro',
+};
+const ramos = filhosDiretos(TRONCO_VICTOR);
+---
+
+<Base titulo="História" descricao="A história da Família Dumont no Brasil, da chegada dos irmãos François e Victor a Diamantina até os dias de hoje.">
+  <section class="container cabecalho-pagina">
+    <p class="sobretitulo">História</p>
+    <h1>A Família Dumont</h1>
+  </section>
+
+  <section class="container secao historia">
+    <div class="prosa estreito">
+      <p class="lead">
+        A Família Dumont está no Brasil desde 1825, quando para cá vieram os irmãos François Honoré Dumont e Victor
+        Honoré Dumont. Em Bordeaux, na França, eram joalheiros.
+      </p>
+      <p>
+        Aqui no Brasil se estabeleceram no Tejuco, hoje Diamantina, dada a grande descoberta de diamantes. François já
+        veio casado com Eufrasie Honorée Dumont. Victor, ainda solteiro, veio a se casar mais tarde com Rosalina
+        Adelaide Dumont.
+      </p>
+
+      <h2>O ramo de François e Eufrasie</h2>
+      <p>
+        O casal teve três filhos, todos nascidos em Diamantina. <strong>Henrique</strong> casou-se com Francisca Santos,
+        de família de Ouro Preto, e veio a ser o pai de <a href="/arvore/#p=alberto">Alberto Santos Dumont</a>.
+        <strong>Alexandre</strong> e <strong>Félix</strong> se mudaram para Bagagem, no Triângulo Mineiro. Félix não
+        deixou descendentes. Alexandre, que morreu na Guerra do Paraguai, deixou uma filha de nome Francisca Honorata
+        Dumont.
+      </p>
+
+      <h2>O ramo de Victor e Rosalina</h2>
+      <p>
+        O casal continuou residindo em Diamantina, onde nasceram os seis filhos. Cada um deles tomou um destino dentro
+        de Minas Gerais, e é deles que descende a maior parte da família registrada na árvore genealógica.
+      </p>
+      <ul class="destinos">
+        {
+          ramos.map((r) => (
+            <li>
+              <a href={`/arvore/#p=${r.id}`}>{r.nome}</a>
+              <span>{destinos[r.id]}</span>
+            </li>
+          ))
+        }
+      </ul>
+
+      <h2>Uma família de joalheiros</h2>
+      <p>
+        Uma das características observadas entre os Dumont é o envolvimento com o comércio de joias e pedras preciosas,
+        ofício que os dois irmãos trouxeram de Bordeaux e que os levou à terra dos diamantes.
+      </p>
+
+      <blockquote>Se é Dumont, é parente e da mesma linhagem vinda da França.</blockquote>
+      <p>
+        Hoje a Família Dumont se encontra espalhada por todo o Brasil, guardando e honrando esta identidade única.
+      </p>
+      <p><a class="botao" href="/arvore/">Ver a árvore genealógica</a></p>
+    </div>
+
+    <aside>
+      <Image src={brasao} alt="Brasão da Família Dumont" width={420} />
+      <p>Brasão da Família Dumont</p>
+    </aside>
+  </section>
+</Base>
+
+<style>
+  .historia {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(0, 1fr) 16rem;
+    align-items: start;
+  }
+  aside {
+    position: sticky;
+    top: 6rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--tinta-suave);
+  }
+  aside img {
+    mix-blend-mode: multiply;
+  }
+  .destinos {
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--linha);
+  }
+  .destinos li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--linha);
+  }
+  .destinos span {
+    color: var(--tinta-suave);
+  }
+  @media (max-width: 50rem) {
+    .historia {
+      grid-template-columns: 1fr;
+    }
+    aside {
+      position: static;
+      max-width: 14rem;
+      margin-inline: auto;
+    }
+  }
+</style>

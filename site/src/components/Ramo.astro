@@ -1,0 +1,36 @@
+---
+import { filhosDiretos, type Pessoa } from '../lib/arvore';
+
+interface Props {
+  pessoa: Pessoa;
+  aberto?: boolean;
+}
+
+const { pessoa, aberto = false } = Astro.props;
+const filhos = filhosDiretos(pessoa.id);
+const conjuges = pessoa.conjuges.map((c) => c.nome).filter(Boolean).join(' e ');
+---
+
+<li>
+  {
+    filhos.length ? (
+      <details open={aberto}>
+        <summary>
+          <a href={`#p=${pessoa.id}`}>{pessoa.nome}</a>
+          {conjuges && <span class="cc"> c.c. {conjuges}</span>}
+          <span class="qtd">{filhos.length}</span>
+        </summary>
+        <ul>
+          {filhos.map((f) => (
+            <Astro.self pessoa={f} />
+          ))}
+        </ul>
+      </details>
+    ) : (
+      <div class="folha">
+        <a href={`#p=${pessoa.id}`}>{pessoa.nome}</a>
+        {conjuges && <span class="cc"> c.c. {conjuges}</span>}
+      </div>
+    )
+  }
+</li>

@@ -1,0 +1,131 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import banner from '../assets/banner.png';
+import Base from '../layouts/Base.astro';
+import { formatarData } from '../config';
+import { filhosDiretos, pessoas, TRONCO_VICTOR } from '../lib/arvore';
+
+const artigos = (await getCollection('blog', (a) => !a.data.rascunho))
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf())
+  .slice(0, 3);
+const geracoes = Math.max(...pessoas.map((p) => p.geracao));
+---
+
+<Base>
+  <div class="banner">
+    <Image
+      src={banner}
+      alt="Família Dumont. Alberto Santos Dumont ao centro, com o 14-Bis e a Torre Eiffel ao fundo."
+      widths={[640, 1024, 1920]}
+      sizes="100vw"
+      loading="eager"
+    />
+  </div>
+
+  <section class="container secao intro">
+    <div>
+      <p class="sobretitulo">Desde 1825 no Brasil</p>
+      <h1>Se é Dumont, é parente.</h1>
+      <p class="lead">
+        Dois irmãos joalheiros deixaram Bordeaux, na França, e se fixaram no Tejuco, hoje Diamantina. Deles descende uma
+        família que se espalhou por Minas Gerais e por todo o Brasil. Este site guarda essa história e ajuda cada Dumont
+        a encontrar o seu lugar nela.
+      </p>
+      <p class="acoes">
+        <a class="botao" href="/arvore/">Encontrar meu ramo na árvore</a>
+        <a class="botao botao-contorno" href="/historia/">Conhecer a história</a>
+      </p>
+    </div>
+    <ul class="numeros">
+      <li><strong>{pessoas.length}</strong> familiares na árvore</li>
+      <li><strong>{geracoes}</strong> gerações registradas</li>
+      <li><strong>{filhosDiretos(TRONCO_VICTOR).length}</strong> ramos em Minas Gerais</li>
+    </ul>
+  </section>
+
+  <section class="secao secao-clara">
+    <div class="container">
+      <h2>O que você encontra aqui</h2>
+      <div class="grade">
+        <a class="cartao" href="/historia/">
+          <h3>História</h3>
+          <p>De Bordeaux a Diamantina: a chegada dos irmãos François e Victor e os caminhos que seus filhos tomaram.</p>
+        </a>
+        <a class="cartao" href="/arvore/">
+          <h3>Árvore Genealógica</h3>
+          <p>Busque um nome e veja a linha completa de descendência, geração por geração, até o tronco da família.</p>
+        </a>
+        <a class="cartao" href="/eventos/">
+          <h3>Eventos</h3>
+          <p>Os encontros da família: os que já aconteceram e os que estão por vir.</p>
+        </a>
+        <a class="cartao" href="/blog/">
+          <h3>Blog</h3>
+          <p>Artigos sobre a origem da família, Diamantina, Santos Dumont e a memória dos nossos antepassados.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container secao">
+    <h2>Do blog</h2>
+    <div class="grade">
+      {
+        artigos.map((a) => (
+          <a class="cartao" href={`/blog/${a.id}/`}>
+            <p class="meta">{formatarData(a.data.data)}</p>
+            <h3>{a.data.titulo}</h3>
+            <p>{a.data.resumo}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>
+
+<style>
+  .banner {
+    background: #e9e2d3;
+    border-bottom: 1px solid var(--linha);
+  }
+  .banner img {
+    display: block;
+    width: 100%;
+    max-width: 120rem;
+    margin-inline: auto;
+  }
+  .intro {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: center;
+  }
+  .acoes {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  .numeros {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid var(--ouro);
+  }
+  .numeros li {
+    padding: 0.6rem 0 0.6rem 1.4rem;
+    color: var(--tinta-suave);
+  }
+  .numeros strong {
+    display: block;
+    font-family: var(--serifa);
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--vinho);
+  }
+  @media (max-width: 50rem) {
+    .intro {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

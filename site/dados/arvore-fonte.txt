@@ -1,0 +1,375 @@
+# Árvore da Família Dumont — transcrição das pranchas "Esboço Genealógico da Família DUMONT"
+#
+# Formato: 2 espaços por nível. Nome ~ cônjuge ~ 2º cônjuge # nota
+#   [2] antes do nome  = filho(a) do 2º casamento
+#   {id}               = identificador fixo (usado para ligar a mesma pessoa em dois ramos)
+#   = {id}             = cônjuge que já existe na árvore com esse id
+#   ?                  = leitura duvidosa na prancha
+# Depois de editar, rode: node scripts/gerar-arvore.mjs
+
+Gonçalo Jacinto Dias Braga {goncalo} # Nascido por volta de 1750
+  Joaquim José dos Santos ~ Emerenciana Constância de Jesus # Médico que veio para o Brasil na corte de D. João VI
+    Marçal José de Paula Santos
+    Antônio José de Paula Santos
+    Maria de Paula Santos
+    Francisco de Paula Santos ~ Rosalina Francisca de Oliveira Cata Preta # Avós maternos de Alberto Santos Dumont
+      Francisca de Paula Santos {francisca-santos} ~ = {henrique}
+      Maria Eugênia de Paula Santos
+      José Augusto de Paula Santos
+      Francisco de Paula Santos
+      Antônio de Paula Santos
+
+François Honoré Dumont {francois} ~ Eufrasie François Honorée Dumont # O casal veio para o Brasil por volta de 1828. Avós paternos de Alberto Santos Dumont
+  Félix Dumont # Não deixou descendentes
+  Alexandre Dumont # Morreu na Guerra do Paraguai; deixou uma filha
+    Francisca Honorata Dumont
+  Henrique Dumont {henrique} ~ = {francisca-santos} # Engenheiro
+    Henrique Santos Dumont ~ Amália Ferreira Camargo
+    Maria Rosalina Santos Dumont ~ Eduardo de Andrade Vilares
+    Virgínia Santos Dumont ~ Guilherme de Andrade Vilares
+    Luiz Santos Dumont ~ Adalgisa Mendonça Uchôa
+    Gabriela Santos Dumont ~ Carlos de Andrade Vilares
+    Alberto Santos Dumont {alberto} # Nascido em 20/07/1873. O Pai da Aviação
+    Sophia Santos Dumont
+    Francisca Santos Dumont ~ Ricardo Severo da Fonseca Costa
+
+Victor Honoré Dumont {victor} ~ Rosalina Adelaide Dumont # Veio para o Brasil por volta de 1823
+  Francisco Assis Dumont {r1} ~ Maria Francisca de Moura
+    Francisco de Moura Dumont ~ Carlota Fonseca
+      Syria Dumont ~ Geraldo Ferreira Almeida
+      Sócrates Dumont # Sem descendentes
+      Cícero Dumont ~ Carmelita Simões
+      Wan-Dyck Dumont ~ Maria Luiza Aquino ~ Celestina Baeta
+      Daniel Dumont ~ Maria José Versiane
+  Pedro Dumont {r2} ~ Maria Izabel Silveira
+    Pedro Dumont Filho ~ Antonina Carvalhais
+      Augusto Andrade Dumont
+      Maria Izabel Dumont
+      Sady Dumont
+      Oscar Dumont
+      Antônio Dumont
+      Pedro Dumont Júnior
+      Rosaura Dumont
+    Antônio Vicente Dumont {antonio-vicente} ~ = {herminia-natalicia}
+      Maria Soares Dumont ~ Antônio Augusto Vasconcelos # Na prancha, "Augusto" foi corrigido a caneta para "Fernando"
+        Doralice Vasconcelos ~ José Maria Campos
+        Fernando A. Vasconcelos ~ Vicência Campos
+        Antônio F. Vasconcelos
+        Francisco Assis Vasconcelos
+        Geraldo Magela Vasconcelos
+        Marta Vasconcelos
+        Maria Flôr de Maio Vasconcelos
+        Maria do Rosário Vasconcelos
+        Paulo Vasconcelos
+      José Soares Dumont {jose-soares} ~ Maria Geralda Dumont
+        Maria Esmeralda Dumont ~ Francisco de Paula Luci
+        José da Silveira Dumont
+        Luiz Soares Dumont ~ Elizabeth Moneth
+        Geraldo Dumont ~ Maria Aparecida Campos
+        Antônio Dumont ~ Irani Câmpora
+        Hermínia do Socorro Dumont ~ Francisco Colares
+        Carlos da Silveira Dumont ~ Denise de Oliveira
+        Jorge da Silveira Dumont ~ Maria dos Reis
+        Norma Lúcia Dumont ~ Márcio Mendes Ferreira
+        Maria Lúcia Dumont
+      Pedro Soares Dumont
+      Rosaura Dumont Magalhães {rosaura-magalhaes} ~ Otaviano Magalhães
+      Úrsula Dumont Nunes ~ Antônio Nunes Mourão
+        Alberto Magno Nunes
+        Maria Hermínia Nunes
+        Antônio Natalício Nunes
+        Ari Dumont
+        Maria de Fátima Nunes
+        Ademar Francisco Nunes
+        Ademir Dumont Nunes
+        Adir Dumont Nunes
+        Maria Magda Nunes
+        Adelmo Dumont Nunes
+        Aldo Dumont Nunes
+        Ângelo Dumont Nunes
+        Maria Lúcia Dumont Nunes
+        Maria Ângela Dumont Nunes
+      Antônio Vicente Dumont ~ Olga Oliveira Dumont
+        Antônio Oliveira Dumont
+        Geralda Dumont Miranda
+        Luiza Marilac Dumont
+        Maria de Lourdes Dumont
+        Nivaldo Oliveira Dumont
+        José Oliveira Dumont
+        Luci Oliveira Dumont
+        Lauro Oliveira Dumont
+        Luiz Oliveira Dumont
+      Hermínia Dumont ~ Antônio Silva
+        Ivan Dumont Silva
+        Idelson Dumont Silva
+        Ilda Dumont Silva
+        Ivandro Dumont Silva
+        Júnior Dumont Silva
+        Ivonise Dumont Silva
+        Idalmo Dumont Silva
+        Francisco Dumont Silva
+        Júlio César Dumont Silva
+        Ivaldo Dumont Silva
+        Ivanete Dumont Silva
+      Terezinha de Jesus Dumont {terezinha-jesus} ~ Antônio Moraes
+      Geralda Dumont {geralda-saldanha} ~ Geraldo Saldanha
+    Rosaura Dumont {r2-rosaura}
+    José Agostinho Dumont {r2-jose-agostinho}
+    Tereza Dumont {r2-tereza}
+  João Batista Dumont {r3} ~ Úrsula Cecília Araújo Dumont
+    Antônio Soares Dumont ~ Ana Borba
+      Ragosino Borba Dumont
+      Maria José Dumont {maria-jose-borba} ~ = {jose-silvino} # Casou-se com o primo José Silvino Dumont; os filhos estão no ramo de Eufrosina
+      Geralda Pedrelina Dumont
+      Antônio Borba Dumont
+      Úrsula Borba Dumont
+      João Dumont
+      Raimundo Borba Dumont
+      Gonçalo Borba Dumont
+      José Carmelino Dumont
+      Luiza Marilac Dumont
+    Rosa Dumont ~ Álvaro Seabra
+      Geraldo Dumont Seabra
+      José Dumont Seabra
+      Conceição Dumont Seabra
+      Rosa Dumont Seabra
+      Maria Júlia Dumont Seabra
+      Maria da Glória Dumont Seabra
+    Victor Soares Dumont {victor-soares} ~ = {carlota-gomes}
+      Maria José Dumont
+      Terezinha Soares Dumont ~ José Diniz Braga
+      João Soares Dumont ~ Zelinda de Motares ?
+      Irene Soares Dumont ~ Mário Marengo
+    Antero Dumont ~ Custódio Borba ? # Nome do cônjuge transcrito como está na prancha
+      Raimunda Borba Dumont
+      Ragosino Neto
+      Antero Dumont Filho
+      Terezinha Borba Dumont
+      Maria das Dores Dumont
+    Hermínia Natalícia Dumont {herminia-natalicia} ~ = {antonio-vicente} # Casou-se com o primo Antônio Vicente Dumont; os filhos estão no ramo de Pedro
+  Ana Rosalina Dumont {r4} ~ Malaquias José Aguiar
+    Victor Augusto Aguiar
+      Maria Augusta Aguiar ~ Vitor Augusto Oliveira
+      Alberto Augusto Aguiar ~ Maria Queiroga
+      Almerinda Augusta Aguiar ~ João Júlio Oliveira # Anotação a caneta na prancha: "Iracema" e "Neusa"
+      Victor Augusto Aguiar Filho ~ Sílvia Garcia Aguiar
+      Luiza Alcantara Aguiar ~ Antonio Geraldo Oliveira
+      Sinval Augusto Aguiar ~ Cléria Scarpelle
+      Joaquim Augusto Aguiar ~ Neuza Beirão
+      Agostinho Alcantara Aguiar ~ Sulamita Naves # Nome do cônjuge corrigido a caneta para "Sulamita"
+      Anita Alcantara Aguiar ~ José Ferreira Lima ? # Sobrenome do cônjuge corrigido a caneta
+      Pedro Alcantara Aguiar # Solteiro
+    Henrique Augusto Aguiar ~ Izabel Aguiar
+      José Aguiar Dumont
+      Dolores Aguiar Dumont
+      Iracema Aguiar Dumont
+      Henrique Aguiar Dumont
+      Zélia Aguiar Dumont
+      Malaquias Aguiar Dumont
+    Malaquias Félix Aguiar {malaquias-felix} ~ Candida Lages
+    Félix Antônio Aguiar {felix-antonio}
+    Maria Genuína Aguiar {maria-genuina}
+    Maria Augusta Aguiar # Solteira
+  Policena Dumont {r5} ~ Marciano Gomes de Oliveira
+    Antônio Gomes Dumont ~ Virgínia Melo Dumont
+      José Geraldo Dumont {jose-geraldo} ~ = {maria-lourdes}
+      Maria Eugênia Dumont Reis ~ José dos Santos Reis
+        Carmelita Dumont Reis ~ Laerte Fernando de Vasconselos
+        Marise Dumont Reis ~ Paulo Orlando Alvarenga Rodrigues
+        Lindaura Dumont Reis ~ Flyrson de Andrade
+        José Reis Junior ~ Marly Miranda Reis
+        Maria Assunção Dumont Reis ~ Gentil Nogueira
+        Sebastião Dumont Reis
+        Assusete Dumont Reis ~ Júlio Cesar Peixoto de Magalhães
+        Sandra Maria Dumont Reis ~ Geraldo Magela M. Calçado
+        Norma Lúcia Dumont Reis ~ Adilson Reis Simões
+        Antônio Carlos Dumont Reis
+      Pedro Gomes Dumont {pedro-gomes} ~ = {gabriela} ~ = {rita-cassia}
+        José Marilac Dumont ~ Maria Salomé Oliveira Dumont
+        Ana Anita Dumont ~ Alípio Manoel
+        [2] Guilherme Antônio Dumont ~ Ocimara Pires
+        [2] Maria Eunice Dumont ~ José Maria Amancio Ferreira
+        [2] Dirceu Dumont ~ Edelvais Seabra
+        [2] José Azemar Dumont ~ Margarette Oliveira
+        [2] Maria Síria Dumont {maria-siria} ~ = {goncalo-victor}
+        [2] Maria Helena Dumont ~ Antônio José Pereira Kleinsorge
+      Maria Estela Dumont ~ Clarindo Geraldo Santos
+        Claristela Dumont Santos ~ Sebastião Canuto Araujo
+        Clarisse Dumont Santos ~ Aristides Alves dos Santos
+        Clariste Dumont Santos ~ Cordoval Geraldo da Cruz
+        Estelindo Dumont Santos ~ Marciana
+      Antonio Gomes Dumont {antonio-gomes-f} ~ Rosália Farneze
+        Geraldo Dumont ~ Terezinha Flecha Dumont
+        Gildete Tadeu Dumont
+        Gilberto Dumont ~ Virgínia de Moraes
+        Giovani Dumont ~ Sônia Cerqueira
+        Giselma Dumont ~ Edson do Socôrro Aguiar
+        Gilda Helena Dumont ~ Wellington Baracho Ferreira
+        Gilsoney Mauro Dumont
+        Gerolisa Tereza Dumont ~ Romeo
+        Gislene Dumont ~ Loth Viana
+        Getúlio Antonio Dumont
+        Gildécio Farnese Dumont
+        Geni Leonor Dumont
+      Maria da Conceição Dumont {maria-conceicao} ~ Rafael Gomes Barreto
+      Otávio Gomes Dumont {otavio-gomes} ~ Irene Barbosa
+      Santos Gomes Dumont {santos-gomes} ~ Maria
+      Paulo Gomes Dumont {paulo-gomes} ~ Maria
+    José Dumont # Sem descendentes
+    Alfredo Gomes Dumont # Sem descendentes
+    Victor Gomes Dumont {victor-gomes} ~ Maria Sanches de Moura
+      Maria Andrelina Dumont {maria-andrelina}
+      José Sanches Dumont {jose-sanches}
+      Raimundo Sanches Dumont {raimundo-sanches}
+      Victor Sanches Dumont
+      Pedro Sanches Dumont
+      Francisco Sanches Dumont
+      Joaquim Sanches Dumont
+      Maria Vitalina Dumont
+      Antonio Sanches Dumont ~ Otilina de Alcantara Moura ? # Cônjuge e filhos anotados a caneta na prancha
+        Pedro Dumont ?
+        Maria Helena Dumont ?
+      Ana Sanches Dumont
+  Eufrosina Dumont {r6} ~ Luiz Gomes de Oliveira
+    Vitor Gomes Dumont {r6-vitor} ~ Maria Josefina Fonseca Gomes
+      Maria Alice Dumont ~ Joaquim Fagundes Oliveira
+        José Fagundes Dumont ~ Filomena Terezinha Oliveira
+        Maria da Conceição Fagundes Dumont ~ Pitágoras Pereira
+        Maria Raimunda Fagundes Dumont ~ Mário Barroso
+        Joaquim Fagundes Dumont ~ Hilda Pimenta Miranda
+        Maria da Purificação Fagundes Dumont ~ Altivo Tavares do Amaral
+        Victor Fagundes Dumont ~ Ivalda Aguiar Fagundes
+        Antônio Fagundes Dumont ~ Maria Sebastiana Fagundes
+      Francisca Gomes Dumont {francisca-gomes} ~ Manoel Ribeiro Fagundes
+        Maria dos Santos Fagundes Dumont ~ José Gomes
+        Elenita Maria Fagundes Dumont ~ Adelino Alves Fagundes
+      Eufrosina Carlota Dumont # Solteira
+      Carlota Gomes Dumont {carlota-gomes} ~ = {victor-soares} # Casou-se com o primo Victor Soares Dumont; os filhos estão no ramo de João Batista
+      José Silvino Dumont {jose-silvino} ~ = {maria-jose-borba}
+        Maria do Carmo Dumont ~ Jaime Pio Fernandes
+        Maria Raimunda Dumont ~ José Roni Porto
+        José Afonso Dumont ~ Carmélia Gomes Dumont ~ Maria do Carmo Dumont
+        Maria Auxiliadora Dumont ~ José de Mattos Dumont
+        Maria Josefina Dumont ~ Camilo Campos Aguiar
+        Vitor Gomes Dumont ~ Maria do Amparo Aguiar Dumont
+        Eliana de Fátima Dumont ~ Jurandir Nascimento de Jesus
+      Virgínia Tereza Dumont # Solteira
+      Rita Cássia Dumont {rita-cassia} ~ José Júlio Dumont ~ = {pedro-gomes} # Em segundas núpcias casou-se com o primo Pedro Gomes Dumont; os filhos estão no ramo de Policena
+      Maria do Amparo Dumont ~ José Francisco de Souza
+        José Dumont de Souza ~ Maria de Jesus Canuto
+          Renata Márcia Canuto Dumont ~ Cícero Roberto de Oliveira Galdino
+          Patrícia Canuto Dumont
+          Luciana Canuto Dumont
+        Geralda Marília Dumont ~ Hélcio José Lara
+          Viviane Regina Dumont Lara
+        Gonçalo Victor Dumont {goncalo-victor} ~ = {maria-siria}
+          Paulo Henrique Dumont
+          Claudia Helena Dumont
+          Cristina Mara Dumont
+        Maria Josefina Dumont ~ Rubens Anúncio de Araújo ~ Haroldo Antônio de Souza Silva
+          Cristiane Angélica Dumont Araújo
+          Rubens Marcelo Dumont Araújo ~ Ana Lúcia Brangioni
+          Laura Márcia Dumont ? ~ Edson Dias dos Santos
+          [2] Haran Rodrigo de Souza ?
+        Victor Francisco Dumont
+        Maria da Conceição Dumont
+        Lacordaire Francisco Dumont ~ Guiomar Marotti
+          Débora Marotti Dumont
+          Igor Marotti Dumont
+      Maria das Dores Dumont {r6-maria-dores} ~ José Pedro Almeida # Uma das pranchas traz o cônjuge como "José Pedro Maria"
+        José Maria de Almeida ~ Nilza Gomes de Almeida
+        Victor Dumont Almeida ~ Nacib Lauar de Almeida
+        Edvaldo Braz de Almeida ~ Martha Maria da Cruz
+        Osvaldo Antônio de Almeida ~ Marilda Maria de Souza
+        Maria Inez Dumont Almeida # Solteira
+        Mariza Indalez Almeida # Solteira
+        Marilha Dumont Almeida # Solteira
+        Olivaldo Luiz Almeida ~ Maria Evanis Vale Almeida
+        Evaldo de Jesus Almeida # Solteiro
+    Luiz Gomes Dumont {r6-luiz} ~ Albertina Fonseca Gomes ~ Ana Gomes
+      Luiz Gomes Dumont ~ Albertina Sanches
+        Salvo Sanches Dumont ~ Maria de Oliveira Campos
+        Luiz Otton Dumont ~ Maria Lucíola Pacheco
+        José Sanches Dumont ~ Terezinha Batista
+        Maria Dalva Dumont
+        Tereza de Jesus Dumont ~ Elcio Texeira Abrêu
+        Vicente Sanches Dumont ~ Céli Maria Castro
+        Antonio Sanches Dumont ~ Terezinha Diniz
+        # REVISAR: a prancha 6.2.1 lista aqui também Margarida Maria, Carlota Fonseca, Gabriela, Luiz Gonzaga e
+        # Maria de Lourdes, que aparecem igualmente na prancha 6.4 como filhos de Pedro Henrique. Foram mantidos só lá.
+      Redelvim Gomes Dumont ~ Maria Vargas
+        Demóstenes Dumont Vargas ~ Antonia Zulma Dumont
+          Maria Umbelina Dumont ~ Valdir Francisco Veronese
+          Ângela Dumont ~ José Boaventura Teixeira
+          Hamilcar Diniz Dumont ~ Maria Inês Torres
+          Paulo Sérgio Diniz Dumont ~ Sandra Sukar Sampaio
+          Sávia Diniz Dumont ~ Herculano Timóteo Teixeira Neto
+          Demóstenes Dumont Vargas Filho # Solteiro
+          Martha Diniz Dumont ~ Regolo Jannuzi Cecchettini
+          Redelvim Dumont Neto ~ Sandra Torres
+        Vitalina Vargas Dumont ~ Antonio Ribeiro Parrode
+          Antônio Parrode Filho ~ Olímpia
+          Antonieta Parrode ~ Roberto
+          Luiz Antônio Parrode ~ Sandra
+          Maria de Fátima Parrode ~ Salvino # Na prancha consta apenas "Maria de Fátima"
+          Eduardo Parrode ~ Marister
+          Fernando Augusto Parrode # Na prancha consta apenas "Fernando Augusto"
+        Luiz Vargas Dumont ~ Terezinha Arantes
+          Luiz Otávio
+          Almerinda
+          Eduardo
+          Cristiane
+        Benedito Vargas Dumont ~ Rosa Gomide
+          Viviane
+        Mariângela Vargas Dumont ~ Jacques Pereira
+          Jacques Pereira Filho ~ Joana D'arc de Freitas
+          Juliana Dumont Pereira ~ Elder Antônio Antonele ?
+          João Redelvim
+      Eufrosina Gomes Dumont ~ Manoel Andrade
+      Policena Gomes Dumont ~ Genésio Álvares
+      Ernesto Gomes Dumont
+      José Calazans Dumont ~ Maria Josefina
+      Maria Eulália Dumont
+    José Sebastião Dumont {r6-jose-sebastiao} ~ Ana Fonseca Gomes
+      José Anunciação de Oliveira
+      Luiz Geraldo de Oliveira # Sem descendentes
+      Maria das Mercês Oliveira ~ Valdivino Mateus Lopes
+      Raimundo Gomes de Oliveira ~ Algemira Campos
+      Francisco Gomes de Oliveira ~ Emídia Carvalho
+      Pedro Gomes de Oliveira ~ Hermínia de Oliveira
+      Ana Carlota de Oliveira # Solteira, sem descendentes
+      Virgínia Dulce de Oliveira ~ Cassimiro Fernandes
+      João Batista de Oliveira ~ Ilda de Moraes Oliveira
+      Eli Constantino de Oliveira ~ Jandira Rocha de Oliveira
+      Zélia Ribeiro de Oliveira ~ João Ribeiro da Silva
+    Pedro Henrique Dumont {r6-pedro-henrique} ~ Carlota da Fonseca Dumont
+      Francisco Gomes Dumont ~ Amália Alaide Dumont
+      Maria da Conceição Dumont {conceicao-ph} ~ = {jose-aureliano}
+      João Baptista Dumont ~ Maria da Conceição Costa
+      Paulo Gomes Dumont ~ Lauriana Rosa Dumont
+      Pedro Augusto Dumont
+      Eufrosina Dumont Silva ~ Joaquim Hipólito Silva
+      José Fonseca Dumont ~ Ormenzina Silva Dumont
+      Margarida Maria Dumont Matos ~ Moacir de Matos Silva
+      Carlota Fonseca Dumont ~ Sila Araújo
+      Gabriela Dumont {gabriela} ~ = {pedro-gomes} # Casou-se com o primo Pedro Gomes Dumont; os filhos estão no ramo de Policena
+      Luiz Gonzaga Dumont ~ Armanda Pinto Dumont
+      Maria de Lourdes Dumont {maria-lourdes} ~ = {jose-geraldo}
+    Virgínia Gomes Dumont {r6-virginia} ~ Francisco Guerra
+    Maria Salomé Dumont {r6-salome} ~ Antonino Gomes Oliveira
+      José Aureliano de Oliveira {jose-aureliano} ~ = {conceicao-ph}
+      Raimundo Gomes de Oliveira # Sem descendentes
+      Lincoln Gomes de Oliveira ~ Maria da Conceição Gomes
+      Levy Gomes de Oliveira ~ Elza
+      Geraldo Gomes de Oliveira ~ Maria Meira
+      Antônio Gomes de Oliveira # Sem descendentes
+      Carlota Gomes de Oliveira ~ Teodoro Meira
+      Helena Gomes de Oliveira ~ Antônio Gomes de Oliveira
+      Victor Gomes de Oliveira ~ Inêz Ferreira Sá
+    Ana Cândida Dumont {r6-ana-candida} ~ José Gomes Oliveira
+      José Joaquim de Oliveira ~ Izabel Clara de Oliveira
+      Antônio Gomes de Oliveira ~ Margarida Maria Araújo
+      Pedro Gomes de Oliveira ~ Agustinha Oliveira
+      Luiz Gomes de Oliveira Neto # Sem descendentes
+      Gabriel Gomes de Oliveira # Sem descendentes
+      Maria Amélia de Oliveira ~ Welinton Gomes Fonseca

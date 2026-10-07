@@ -1,0 +1,477 @@
+---
+import Base from '../layouts/Base.astro';
+import Ramo from '../components/Ramo.astro';
+import {
+  buscarPessoa,
+  filhosDiretos,
+  pessoas,
+  totalDescendentes,
+  TRONCO_FRANCOIS,
+  TRONCO_SANTOS,
+  TRONCO_VICTOR,
+} from '../lib/arvore';
+
+const victor = buscarPessoa(TRONCO_VICTOR)!;
+const francois = buscarPessoa(TRONCO_FRANCOIS)!;
+const santos = buscarPessoa(TRONCO_SANTOS)!;
+const ramos = filhosDiretos(victor.id);
+---
+
+<Base
+  titulo="Árvore Genealógica"
+  descricao="Procure seu nome ou o de um antepassado e descubra de qual ramo da Família Dumont você descende."
+>
+  <section class="container cabecalho-pagina">
+    <p class="sobretitulo">Árvore Genealógica</p>
+    <h1>De qual ramo você vem?</h1>
+    <p class="lead estreito">
+      Digite o seu nome, o de seus pais ou o de seus avós. A árvore reúne {pessoas.length} familiares registrados no
+      Esboço Genealógico da Família Dumont e mostra o caminho de cada um até os irmãos que vieram da França.
+    </p>
+  </section>
+
+  <section class="container secao busca-secao">
+    <label for="busca" class="busca-rotulo">Buscar na árvore</label>
+    <input
+      id="busca"
+      type="search"
+      autocomplete="off"
+      placeholder="Ex.: Maria Eugênia, Vasconcelos, Redelvim..."
+      aria-describedby="busca-ajuda"
+    />
+    <p id="busca-ajuda" class="ajuda">Não precisa de acentos. A busca também encontra quem entrou na família por casamento.</p>
+    <div id="resultados" aria-live="polite"></div>
+  </section>
+
+  <section class="secao secao-clara">
+    <div class="container">
+      <div id="ficha" tabindex="-1"></div>
+    </div>
+  </section>
+
+  <section class="container secao">
+    <h2>Os seis ramos de Victor e Rosalina</h2>
+    <p class="estreito">
+      Quase toda a árvore documentada descende dos seis filhos de Victor Honoré Dumont e Rosalina Adelaide Dumont,
+      nascidos em Diamantina. Escolha um ramo para começar.
+    </p>
+    <div class="grade ramos">
+      {
+        ramos.map((r, i) => (
+          <a class="cartao" href={`#p=${r.id}`}>
+            <p class="meta">Ramo {i + 1}</p>
+            <h3>{r.nome}</h3>
+            <p>{totalDescendentes(r.id)} descendentes registrados</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="container secao completa">
+    <div class="completa-topo">
+      <h2>Árvore completa</h2>
+      <div>
+        <button class="botao botao-contorno" data-expandir="true">Expandir tudo</button>
+        <button class="botao botao-contorno" data-expandir="false">Recolher tudo</button>
+      </div>
+    </div>
+    <p class="estreito">Clique na seta para abrir os filhos de cada pessoa, ou no nome para ver a ficha dela.</p>
+
+    <h3>Descendentes de Victor Honoré Dumont</h3>
+    <ul class="arvore"><Ramo pessoa={victor} aberto /></ul>
+
+    <h3>Descendentes de François Honoré Dumont</h3>
+    <ul class="arvore"><Ramo pessoa={francois} aberto /></ul>
+
+    <h3>Família Santos, linha materna de Alberto Santos Dumont</h3>
+    <ul class="arvore"><Ramo pessoa={santos} aberto /></ul>
+  </section>
+
+  <section class="secao secao-clara">
+    <div class="container estreito">
+      <h2>Não encontrou seu nome?</h2>
+      <p>
+        O Esboço Genealógico vai, na maior parte dos ramos, até a 4ª geração. Se você é Dumont e ainda não aparece aqui,
+        procure o nome de seus avós ou bisavós e nos escreva contando quem são seus pais: a informação é conferida e
+        entra na árvore.
+      </p>
+      <p><a class="botao" href="/contato/?assunto=arvore">Enviar minha linha da família</a></p>
+    </div>
+  </section>
+
+  <script type="application/json" id="dados-arvore" set:html={JSON.stringify(pessoas)} />
+</Base>
+
+<script>
+  import type { Pessoa } from '../lib/arvore';
+
+  const pessoas: Pessoa[] = JSON.parse(document.getElementById('dados-arvore')!.textContent!);
+  const porId = new Map(pessoas.map((p) => [p.id, p]));
+  const campo = document.getElementById('busca') as HTMLInputElement;
+  const resultados = document.getElementById('resultados')!;
+  const ficha = document.getElementById('ficha')!;
+
+  const normalizar = (t: string) =>
+    t
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  const esc = (t: string) =>
+    t.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  const geracao = (g: number) => (g === 0 ? 'Tronco' : g < 0 ? 'Ascendente' : `${g}ª geração`);
+  const link = (p: Pessoa) => `<a href="#p=${p.id}">${esc(p.nome)}</a>`;
+
+  // Quem entrou na família por casamento não tem ficha própria: a busca leva à ficha do cônjuge.
+  const indice = pessoas.flatMap((p) => [
+    { chave: normalizar(p.nome), pessoa: p, conjuge: null as string | null },
+    ...p.conjuges
+      .filter((c) => !c.pessoaId && c.nome)
+      .map((c) => ({ chave: normalizar(c.nome), pessoa: p, conjuge: c.nome })),
+  ]);
+
+  function linhagem(p: Pessoa): Pessoa[] {
+    const linha = [p];
+    while (linha[0].paiId) linha.unshift(porId.get(linha[0].paiId)!);
+    return linha;
+  }
+
+  /** Filhos da pessoa agrupados por casamento, incluindo os registrados na ficha do cônjuge. */
+  function filhosPorUniao(p: Pessoa) {
+    const grupos: { com: string | null; filhos: Pessoa[] }[] = [];
+    const juntar = (com: string | null, filhos: Pessoa[]) => filhos.length && grupos.push({ com, filhos });
+
+    const proprios = pessoas.filter((f) => f.paiId === p.id);
+    for (const uniao of [...new Set(proprios.map((f) => f.uniao))].sort()) {
+      juntar(
+        uniao ? (p.conjuges[uniao - 1]?.nome ?? null) : null,
+        proprios.filter((f) => f.uniao === uniao),
+      );
+    }
+    for (const c of p.conjuges) {
+      const outro = c.pessoaId && porId.get(c.pessoaId);
+      if (!outro) continue;
+      const uniao = outro.conjuges.findIndex((x) => x.pessoaId === p.id) + 1;
+      juntar(
+        outro.nome,
+        pessoas.filter((f) => f.paiId === outro.id && f.uniao === uniao),
+      );
+    }
+    return grupos;
+  }
+
+  function contexto(p: Pessoa) {
+    const partes = [geracao(p.geracao)];
+    const ramo = p.ramoId && p.ramoId !== p.id ? porId.get(p.ramoId) : null;
+    if (ramo) partes.push(`ramo de ${ramo.nome}`);
+    const pai = p.paiId && porId.get(p.paiId);
+    if (pai && pai !== ramo) partes.push(`filho(a) de ${pai.nome}`);
+    return partes.join(' · ');
+  }
+
+  function buscar() {
+    const termos = normalizar(campo.value).split(/\s+/).filter(Boolean);
+    if (!termos.length || termos.join('').length < 2) {
+      resultados.innerHTML = '';
+      return;
+    }
+    const achados = indice
+      .filter((e) => termos.every((t) => e.chave.includes(t)))
+      .sort((a, b) => Number(b.chave.startsWith(termos[0])) - Number(a.chave.startsWith(termos[0])));
+    if (!achados.length) {
+      resultados.innerHTML = `<p class="vazio">Nenhum nome encontrado. Tente só o primeiro nome ou só o sobrenome, ou procure por seus avós.</p>`;
+      return;
+    }
+    const LIMITE = 40;
+    resultados.innerHTML =
+      `<p class="contagem">${achados.length} ${achados.length === 1 ? 'resultado' : 'resultados'}${achados.length > LIMITE ? `, mostrando os ${LIMITE} primeiros` : ''}</p><ul class="lista-resultados">` +
+      achados
+        .slice(0, LIMITE)
+        .map((e) =>
+          e.conjuge
+            ? `<li><a href="#p=${e.pessoa.id}"><strong>${esc(e.conjuge)}</strong><span>casado(a) com ${esc(e.pessoa.nome)} · ${esc(contexto(e.pessoa))}</span></a></li>`
+            : `<li><a href="#p=${e.pessoa.id}"><strong>${esc(e.pessoa.nome)}</strong><span>${esc(contexto(e.pessoa))}</span></a></li>`,
+        )
+        .join('') +
+      '</ul>';
+  }
+
+  function mostrar(p: Pessoa, rolar: boolean) {
+    const linha = linhagem(p);
+    const pai = p.paiId ? porId.get(p.paiId)! : null;
+    const outro = pai && p.uniao ? pai.conjuges[p.uniao - 1] : null;
+    const outroHtml = outro
+      ? outro.pessoaId
+        ? link(porId.get(outro.pessoaId)!)
+        : outro.nome
+          ? esc(outro.nome)
+          : ''
+      : '';
+    const conjuges = p.conjuges.filter((c) => c.nome);
+    const grupos = filhosPorUniao(p);
+
+    ficha.innerHTML = `
+      <p class="sobretitulo">${esc(geracao(p.geracao))}</p>
+      <h2>${esc(p.nome)}</h2>
+      ${p.duvidoso ? '<p class="aviso">Parte desta ficha tem leitura incerta no documento original e ainda precisa ser conferida.</p>' : ''}
+      <dl class="dados">
+        ${pai ? `<div><dt>Filho(a) de</dt><dd>${link(pai)}${outroHtml ? ` e ${outroHtml}` : ''}</dd></div>` : ''}
+        ${
+          conjuges.length
+            ? `<div><dt>${conjuges.length > 1 ? 'Casamentos' : 'Casou-se com'}</dt><dd>${conjuges
+                .map((c, i) => {
+                  const nome = c.pessoaId ? link(porId.get(c.pessoaId)!) : esc(c.nome);
+                  return conjuges.length > 1 ? `${nome} (${i + 1}ª núpcia)` : nome;
+                })
+                .join('<br>')}</dd></div>`
+            : ''
+        }
+        ${p.nota ? `<div><dt>Anotação</dt><dd>${esc(p.nota)}</dd></div>` : ''}
+      </dl>
+
+      <h3>Linha de descendência</h3>
+      <ol class="linhagem">
+        ${linha
+          .map(
+            (a) =>
+              `<li${a === p ? ' class="atual"' : ''}><span>${esc(geracao(a.geracao))}</span>${a === p ? `<strong>${esc(a.nome)}</strong>` : link(a)}</li>`,
+          )
+          .join('')}
+      </ol>
+
+      <h3>Filhos</h3>
+      ${
+        grupos.length
+          ? grupos
+              .map(
+                (g) => `
+                  ${grupos.length > 1 || g.com ? `<p class="uniao">${g.com ? `Com ${esc(g.com)}` : 'Casamento não informado no documento'}</p>` : ''}
+                  <ul class="filhos">${g.filhos
+                    .map((f) => {
+                      const cc = f.conjuges.map((c) => c.nome).filter(Boolean).join(' e ');
+                      return `<li>${link(f)}${cc ? `<span>c.c. ${esc(cc)}</span>` : ''}</li>`;
+                    })
+                    .join('')}</ul>`,
+              )
+              .join('')
+          : '<p class="vazio">Nenhum filho registrado no Esboço Genealógico. Se você conhece esta linha da família, <a href="/contato/?assunto=arvore">conte para nós</a>.</p>'
+      }`;
+    if (rolar) {
+      ficha.scrollIntoView({ block: 'start' });
+      ficha.focus({ preventScroll: true });
+    }
+  }
+
+  function lerEndereco(rolar: boolean) {
+    const id = decodeURIComponent(location.hash.replace(/^#p=/, ''));
+    const p = location.hash.startsWith('#p=') ? porId.get(id) : undefined;
+    mostrar(p ?? porId.get('victor')!, rolar && !!p);
+  }
+
+  campo.addEventListener('input', buscar);
+  window.addEventListener('hashchange', () => lerEndereco(true));
+  lerEndereco(true);
+
+  document.querySelectorAll<HTMLButtonElement>('[data-expandir]').forEach((botao) =>
+    botao.addEventListener('click', () => {
+      const abrir = botao.dataset.expandir === 'true';
+      document.querySelectorAll<HTMLDetailsElement>('.arvore details').forEach((d) => (d.open = abrir));
+    }),
+  );
+</script>
+
+<style is:global>
+  .busca-secao {
+    padding-bottom: 2rem;
+  }
+  .busca-rotulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  #busca {
+    width: 100%;
+    max-width: 40rem;
+    padding: 0.9rem 1rem;
+    border: 2px solid var(--vinho);
+    border-radius: 2px;
+    background: #fff;
+    font: inherit;
+    font-size: 1.15rem;
+  }
+  .ajuda,
+  .contagem {
+    font-size: 0.9rem;
+    color: var(--tinta-suave);
+    margin: 0.4rem 0 0;
+  }
+  .lista-resultados {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    margin: 0.8rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .lista-resultados a {
+    display: block;
+    height: 100%;
+    padding: 0.7rem 0.9rem;
+    background: var(--papel-claro);
+    border: 1px solid var(--linha);
+    border-left: 3px solid var(--ouro);
+    color: var(--tinta);
+    text-decoration: none;
+  }
+  .lista-resultados a:hover {
+    border-left-color: var(--vinho);
+  }
+  .lista-resultados span {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--tinta-suave);
+  }
+  .vazio {
+    color: var(--tinta-suave);
+  }
+  .aviso {
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--ouro);
+    background: #f3e7c9;
+    font-size: 0.95rem;
+  }
+
+  #ficha {
+    scroll-margin-top: 5.5rem;
+    outline: none;
+  }
+  #ficha h3 {
+    margin-top: 1.8rem;
+  }
+  .dados {
+    display: grid;
+    gap: 0.6rem;
+    margin: 0;
+  }
+  .dados dt {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+  }
+  .dados dd {
+    margin: 0;
+  }
+  .linhagem {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid var(--ouro);
+  }
+  .linhagem li {
+    position: relative;
+    padding: 0.35rem 0 0.35rem 1.3rem;
+  }
+  .linhagem li::before {
+    content: '';
+    position: absolute;
+    left: -0.4rem;
+    top: 0.85rem;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: var(--ouro);
+  }
+  .linhagem li.atual::before {
+    background: var(--vinho);
+    box-shadow: 0 0 0 3px var(--papel-claro), 0 0 0 4px var(--vinho);
+  }
+  .linhagem span {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+  }
+  .linhagem strong {
+    font-size: 1.15rem;
+    color: var(--vinho-escuro);
+  }
+  .uniao {
+    margin: 1rem 0 0.4rem;
+    font-weight: 600;
+    color: var(--tinta-suave);
+  }
+  .filhos {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .filhos li {
+    padding: 0.6rem 0.8rem;
+    background: var(--papel);
+    border: 1px solid var(--linha);
+  }
+  .filhos span {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--tinta-suave);
+  }
+
+  .ramos {
+    margin-top: 1.5rem;
+  }
+  .completa-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .completa-topo .botao {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+  }
+  .completa h3 {
+    margin-top: 2rem;
+  }
+  .arvore,
+  .arvore ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .arvore ul {
+    margin-left: 0.55rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--linha);
+  }
+  .arvore summary,
+  .arvore .folha {
+    padding: 0.2rem 0;
+  }
+  .arvore summary {
+    cursor: pointer;
+  }
+  .arvore summary::marker {
+    color: var(--ouro);
+  }
+  .arvore .folha {
+    padding-left: 1.05rem;
+  }
+  .arvore .cc {
+    font-size: 0.88rem;
+    color: var(--tinta-suave);
+  }
+  .arvore .qtd {
+    margin-left: 0.3rem;
+    padding: 0 0.4rem;
+    border-radius: 99px;
+    background: var(--linha);
+    font-size: 0.75rem;
+  }
+</style>

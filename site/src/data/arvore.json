@@ -1,0 +1,5926 @@
+[
+ {
+  "id": "goncalo",
+  "nome": "Gonçalo Jacinto Dias Braga",
+  "paiId": null,
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": -2,
+  "troncoId": "goncalo",
+  "ramoId": null,
+  "nota": "Nascido por volta de 1750",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joaquim-jose-dos-santos",
+  "nome": "Joaquim José dos Santos",
+  "paiId": "goncalo",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Emerenciana Constância de Jesus"
+   }
+  ],
+  "geracao": -1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": "Médico que veio para o Brasil na corte de D. João VI",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "marcal-jose-de-paula-santos",
+  "nome": "Marçal José de Paula Santos",
+  "paiId": "joaquim-jose-dos-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 0,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-jose-de-paula-santos",
+  "nome": "Antônio José de Paula Santos",
+  "paiId": "joaquim-jose-dos-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 0,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-de-paula-santos",
+  "nome": "Maria de Paula Santos",
+  "paiId": "joaquim-jose-dos-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 0,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-de-paula-santos",
+  "nome": "Francisco de Paula Santos",
+  "paiId": "joaquim-jose-dos-santos",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rosalina Francisca de Oliveira Cata Preta"
+   }
+  ],
+  "geracao": 0,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": "Avós maternos de Alberto Santos Dumont",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisca-santos",
+  "nome": "Francisca de Paula Santos",
+  "paiId": "francisco-de-paula-santos",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "henrique",
+    "nome": "Henrique Dumont"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-eugenia-de-paula-santos",
+  "nome": "Maria Eugênia de Paula Santos",
+  "paiId": "francisco-de-paula-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-augusto-de-paula-santos",
+  "nome": "José Augusto de Paula Santos",
+  "paiId": "francisco-de-paula-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-de-paula-santos--francisco-de-paula-santos",
+  "nome": "Francisco de Paula Santos",
+  "paiId": "francisco-de-paula-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-de-paula-santos",
+  "nome": "Antônio de Paula Santos",
+  "paiId": "francisco-de-paula-santos",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "goncalo",
+  "ramoId": "joaquim-jose-dos-santos",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francois",
+  "nome": "François Honoré Dumont",
+  "paiId": null,
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Eufrasie François Honorée Dumont"
+   }
+  ],
+  "geracao": 0,
+  "troncoId": "francois",
+  "ramoId": null,
+  "nota": "O casal veio para o Brasil por volta de 1828. Avós paternos de Alberto Santos Dumont",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "felix-dumont",
+  "nome": "Félix Dumont",
+  "paiId": "francois",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "francois",
+  "ramoId": "felix-dumont",
+  "nota": "Não deixou descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "alexandre-dumont",
+  "nome": "Alexandre Dumont",
+  "paiId": "francois",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 1,
+  "troncoId": "francois",
+  "ramoId": "alexandre-dumont",
+  "nota": "Morreu na Guerra do Paraguai; deixou uma filha",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisca-honorata-dumont",
+  "nome": "Francisca Honorata Dumont",
+  "paiId": "alexandre-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "alexandre-dumont",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "henrique",
+  "nome": "Henrique Dumont",
+  "paiId": "francois",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "francisca-santos",
+    "nome": "Francisca de Paula Santos"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": "Engenheiro",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "henrique-santos-dumont",
+  "nome": "Henrique Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Amália Ferreira Camargo"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-rosalina-santos-dumont",
+  "nome": "Maria Rosalina Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Eduardo de Andrade Vilares"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "virginia-santos-dumont",
+  "nome": "Virgínia Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Guilherme de Andrade Vilares"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-santos-dumont",
+  "nome": "Luiz Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Adalgisa Mendonça Uchôa"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gabriela-santos-dumont",
+  "nome": "Gabriela Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Carlos de Andrade Vilares"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "alberto",
+  "nome": "Alberto Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": "Nascido em 20/07/1873. O Pai da Aviação",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "sophia-santos-dumont",
+  "nome": "Sophia Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisca-santos-dumont",
+  "nome": "Francisca Santos Dumont",
+  "paiId": "henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ricardo Severo da Fonseca Costa"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "francois",
+  "ramoId": "henrique",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor",
+  "nome": "Victor Honoré Dumont",
+  "paiId": null,
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rosalina Adelaide Dumont"
+   }
+  ],
+  "geracao": 0,
+  "troncoId": "victor",
+  "ramoId": null,
+  "nota": "Veio para o Brasil por volta de 1823",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r1",
+  "nome": "Francisco Assis Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Francisca de Moura"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-de-moura-dumont",
+  "nome": "Francisco de Moura Dumont",
+  "paiId": "r1",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Carlota Fonseca"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "syria-dumont",
+  "nome": "Syria Dumont",
+  "paiId": "francisco-de-moura-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Geraldo Ferreira Almeida"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "socrates-dumont",
+  "nome": "Sócrates Dumont",
+  "paiId": "francisco-de-moura-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "cicero-dumont",
+  "nome": "Cícero Dumont",
+  "paiId": "francisco-de-moura-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Carmelita Simões"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "wan-dyck-dumont",
+  "nome": "Wan-Dyck Dumont",
+  "paiId": "francisco-de-moura-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Luiza Aquino"
+   },
+   {
+    "nome": "Celestina Baeta"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "daniel-dumont",
+  "nome": "Daniel Dumont",
+  "paiId": "francisco-de-moura-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria José Versiane"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r1",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r2",
+  "nome": "Pedro Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Izabel Silveira"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-dumont-filho",
+  "nome": "Pedro Dumont Filho",
+  "paiId": "r2",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antonina Carvalhais"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "augusto-andrade-dumont",
+  "nome": "Augusto Andrade Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-izabel-dumont",
+  "nome": "Maria Izabel Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "sady-dumont",
+  "nome": "Sady Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "oscar-dumont",
+  "nome": "Oscar Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-dumont",
+  "nome": "Antônio Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-dumont-junior",
+  "nome": "Pedro Dumont Júnior",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rosaura-dumont",
+  "nome": "Rosaura Dumont",
+  "paiId": "pedro-dumont-filho",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-vicente",
+  "nome": "Antônio Vicente Dumont",
+  "paiId": "r2",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "herminia-natalicia",
+    "nome": "Hermínia Natalícia Dumont"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-soares-dumont",
+  "nome": "Maria Soares Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antônio Augusto Vasconcelos"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": "Na prancha, \"Augusto\" foi corrigido a caneta para \"Fernando\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "doralice-vasconcelos",
+  "nome": "Doralice Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Maria Campos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "fernando-a-vasconcelos",
+  "nome": "Fernando A. Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Vicência Campos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-f-vasconcelos",
+  "nome": "Antônio F. Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-assis-vasconcelos",
+  "nome": "Francisco Assis Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geraldo-magela-vasconcelos",
+  "nome": "Geraldo Magela Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "marta-vasconcelos",
+  "nome": "Marta Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-flor-de-maio-vasconcelos",
+  "nome": "Maria Flôr de Maio Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-do-rosario-vasconcelos",
+  "nome": "Maria do Rosário Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "paulo-vasconcelos",
+  "nome": "Paulo Vasconcelos",
+  "paiId": "maria-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-soares",
+  "nome": "José Soares Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Geralda Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-esmeralda-dumont",
+  "nome": "Maria Esmeralda Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Francisco de Paula Luci"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-da-silveira-dumont",
+  "nome": "José da Silveira Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-soares-dumont",
+  "nome": "Luiz Soares Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Elizabeth Moneth"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geraldo-dumont",
+  "nome": "Geraldo Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Aparecida Campos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-dumont--jose-soares",
+  "nome": "Antônio Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Irani Câmpora"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "herminia-do-socorro-dumont",
+  "nome": "Hermínia do Socorro Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Francisco Colares"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "carlos-da-silveira-dumont",
+  "nome": "Carlos da Silveira Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Denise de Oliveira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jorge-da-silveira-dumont",
+  "nome": "Jorge da Silveira Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria dos Reis"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "norma-lucia-dumont",
+  "nome": "Norma Lúcia Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Márcio Mendes Ferreira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-lucia-dumont",
+  "nome": "Maria Lúcia Dumont",
+  "paiId": "jose-soares",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-soares-dumont",
+  "nome": "Pedro Soares Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rosaura-magalhaes",
+  "nome": "Rosaura Dumont Magalhães",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Otaviano Magalhães"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ursula-dumont-nunes",
+  "nome": "Úrsula Dumont Nunes",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antônio Nunes Mourão"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "alberto-magno-nunes",
+  "nome": "Alberto Magno Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-herminia-nunes",
+  "nome": "Maria Hermínia Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-natalicio-nunes",
+  "nome": "Antônio Natalício Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ari-dumont",
+  "nome": "Ari Dumont",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-de-fatima-nunes",
+  "nome": "Maria de Fátima Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ademar-francisco-nunes",
+  "nome": "Ademar Francisco Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ademir-dumont-nunes",
+  "nome": "Ademir Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "adir-dumont-nunes",
+  "nome": "Adir Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-magda-nunes",
+  "nome": "Maria Magda Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "adelmo-dumont-nunes",
+  "nome": "Adelmo Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "aldo-dumont-nunes",
+  "nome": "Aldo Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "angelo-dumont-nunes",
+  "nome": "Ângelo Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-lucia-dumont-nunes",
+  "nome": "Maria Lúcia Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-angela-dumont-nunes",
+  "nome": "Maria Ângela Dumont Nunes",
+  "paiId": "ursula-dumont-nunes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-vicente-dumont",
+  "nome": "Antônio Vicente Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Olga Oliveira Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-oliveira-dumont",
+  "nome": "Antônio Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geralda-dumont-miranda",
+  "nome": "Geralda Dumont Miranda",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiza-marilac-dumont",
+  "nome": "Luiza Marilac Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-de-lourdes-dumont",
+  "nome": "Maria de Lourdes Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "nivaldo-oliveira-dumont",
+  "nome": "Nivaldo Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-oliveira-dumont",
+  "nome": "José Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luci-oliveira-dumont",
+  "nome": "Luci Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "lauro-oliveira-dumont",
+  "nome": "Lauro Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-oliveira-dumont",
+  "nome": "Luiz Oliveira Dumont",
+  "paiId": "antonio-vicente-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "herminia-dumont",
+  "nome": "Hermínia Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antônio Silva"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ivan-dumont-silva",
+  "nome": "Ivan Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "idelson-dumont-silva",
+  "nome": "Idelson Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ilda-dumont-silva",
+  "nome": "Ilda Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ivandro-dumont-silva",
+  "nome": "Ivandro Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "junior-dumont-silva",
+  "nome": "Júnior Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ivonise-dumont-silva",
+  "nome": "Ivonise Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "idalmo-dumont-silva",
+  "nome": "Idalmo Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-dumont-silva",
+  "nome": "Francisco Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "julio-cesar-dumont-silva",
+  "nome": "Júlio César Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ivaldo-dumont-silva",
+  "nome": "Ivaldo Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ivanete-dumont-silva",
+  "nome": "Ivanete Dumont Silva",
+  "paiId": "herminia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "terezinha-jesus",
+  "nome": "Terezinha de Jesus Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antônio Moraes"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geralda-saldanha",
+  "nome": "Geralda Dumont",
+  "paiId": "antonio-vicente",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Geraldo Saldanha"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r2-rosaura",
+  "nome": "Rosaura Dumont",
+  "paiId": "r2",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r2-jose-agostinho",
+  "nome": "José Agostinho Dumont",
+  "paiId": "r2",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r2-tereza",
+  "nome": "Tereza Dumont",
+  "paiId": "r2",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r2",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r3",
+  "nome": "João Batista Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Úrsula Cecília Araújo Dumont"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-soares-dumont",
+  "nome": "Antônio Soares Dumont",
+  "paiId": "r3",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ana Borba"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ragosino-borba-dumont",
+  "nome": "Ragosino Borba Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-jose-borba",
+  "nome": "Maria José Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "jose-silvino",
+    "nome": "José Silvino Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": "Casou-se com o primo José Silvino Dumont; os filhos estão no ramo de Eufrosina",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geralda-pedrelina-dumont",
+  "nome": "Geralda Pedrelina Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-borba-dumont",
+  "nome": "Antônio Borba Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ursula-borba-dumont",
+  "nome": "Úrsula Borba Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joao-dumont",
+  "nome": "João Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "raimundo-borba-dumont",
+  "nome": "Raimundo Borba Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "goncalo-borba-dumont",
+  "nome": "Gonçalo Borba Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-carmelino-dumont",
+  "nome": "José Carmelino Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiza-marilac-dumont--antonio-soares-dumont",
+  "nome": "Luiza Marilac Dumont",
+  "paiId": "antonio-soares-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rosa-dumont",
+  "nome": "Rosa Dumont",
+  "paiId": "r3",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Álvaro Seabra"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geraldo-dumont-seabra",
+  "nome": "Geraldo Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-dumont-seabra",
+  "nome": "José Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "conceicao-dumont-seabra",
+  "nome": "Conceição Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rosa-dumont-seabra",
+  "nome": "Rosa Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-julia-dumont-seabra",
+  "nome": "Maria Júlia Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-da-gloria-dumont-seabra",
+  "nome": "Maria da Glória Dumont Seabra",
+  "paiId": "rosa-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-soares",
+  "nome": "Victor Soares Dumont",
+  "paiId": "r3",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "carlota-gomes",
+    "nome": "Carlota Gomes Dumont"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-jose-dumont",
+  "nome": "Maria José Dumont",
+  "paiId": "victor-soares",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "terezinha-soares-dumont",
+  "nome": "Terezinha Soares Dumont",
+  "paiId": "victor-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Diniz Braga"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joao-soares-dumont",
+  "nome": "João Soares Dumont",
+  "paiId": "victor-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Zelinda de Motares"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "irene-soares-dumont",
+  "nome": "Irene Soares Dumont",
+  "paiId": "victor-soares",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Mário Marengo"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antero-dumont",
+  "nome": "Antero Dumont",
+  "paiId": "r3",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Custódio Borba"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": "Nome do cônjuge transcrito como está na prancha",
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "raimunda-borba-dumont",
+  "nome": "Raimunda Borba Dumont",
+  "paiId": "antero-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ragosino-neto",
+  "nome": "Ragosino Neto",
+  "paiId": "antero-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antero-dumont-filho",
+  "nome": "Antero Dumont Filho",
+  "paiId": "antero-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "terezinha-borba-dumont",
+  "nome": "Terezinha Borba Dumont",
+  "paiId": "antero-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-das-dores-dumont",
+  "nome": "Maria das Dores Dumont",
+  "paiId": "antero-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "herminia-natalicia",
+  "nome": "Hermínia Natalícia Dumont",
+  "paiId": "r3",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "antonio-vicente",
+    "nome": "Antônio Vicente Dumont"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r3",
+  "nota": "Casou-se com o primo Antônio Vicente Dumont; os filhos estão no ramo de Pedro",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r4",
+  "nome": "Ana Rosalina Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Malaquias José Aguiar"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-augusto-aguiar",
+  "nome": "Victor Augusto Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-augusta-aguiar",
+  "nome": "Maria Augusta Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Vitor Augusto Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "alberto-augusto-aguiar",
+  "nome": "Alberto Augusto Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Queiroga"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "almerinda-augusta-aguiar",
+  "nome": "Almerinda Augusta Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "João Júlio Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": "Anotação a caneta na prancha: \"Iracema\" e \"Neusa\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-augusto-aguiar-filho",
+  "nome": "Victor Augusto Aguiar Filho",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sílvia Garcia Aguiar"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiza-alcantara-aguiar",
+  "nome": "Luiza Alcantara Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antonio Geraldo Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "sinval-augusto-aguiar",
+  "nome": "Sinval Augusto Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Cléria Scarpelle"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joaquim-augusto-aguiar",
+  "nome": "Joaquim Augusto Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Neuza Beirão"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "agostinho-alcantara-aguiar",
+  "nome": "Agostinho Alcantara Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sulamita Naves"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": "Nome do cônjuge corrigido a caneta para \"Sulamita\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "anita-alcantara-aguiar",
+  "nome": "Anita Alcantara Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Ferreira Lima"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": "Sobrenome do cônjuge corrigido a caneta",
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-alcantara-aguiar",
+  "nome": "Pedro Alcantara Aguiar",
+  "paiId": "victor-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": "Solteiro",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "henrique-augusto-aguiar",
+  "nome": "Henrique Augusto Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Izabel Aguiar"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-aguiar-dumont",
+  "nome": "José Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "dolores-aguiar-dumont",
+  "nome": "Dolores Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "iracema-aguiar-dumont",
+  "nome": "Iracema Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "henrique-aguiar-dumont",
+  "nome": "Henrique Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "zelia-aguiar-dumont",
+  "nome": "Zélia Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "malaquias-aguiar-dumont",
+  "nome": "Malaquias Aguiar Dumont",
+  "paiId": "henrique-augusto-aguiar",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "malaquias-felix",
+  "nome": "Malaquias Félix Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Candida Lages"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "felix-antonio",
+  "nome": "Félix Antônio Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-genuina",
+  "nome": "Maria Genuína Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-augusta-aguiar--r4",
+  "nome": "Maria Augusta Aguiar",
+  "paiId": "r4",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r4",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r5",
+  "nome": "Policena Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Marciano Gomes de Oliveira"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-gomes-dumont",
+  "nome": "Antônio Gomes Dumont",
+  "paiId": "r5",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Virgínia Melo Dumont"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-geraldo",
+  "nome": "José Geraldo Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "maria-lourdes",
+    "nome": "Maria de Lourdes Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-eugenia-dumont-reis",
+  "nome": "Maria Eugênia Dumont Reis",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José dos Santos Reis"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "carmelita-dumont-reis",
+  "nome": "Carmelita Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Laerte Fernando de Vasconselos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "marise-dumont-reis",
+  "nome": "Marise Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Paulo Orlando Alvarenga Rodrigues"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "lindaura-dumont-reis",
+  "nome": "Lindaura Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Flyrson de Andrade"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-reis-junior",
+  "nome": "José Reis Junior",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Marly Miranda Reis"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-assuncao-dumont-reis",
+  "nome": "Maria Assunção Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Gentil Nogueira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "sebastiao-dumont-reis",
+  "nome": "Sebastião Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "assusete-dumont-reis",
+  "nome": "Assusete Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Júlio Cesar Peixoto de Magalhães"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "sandra-maria-dumont-reis",
+  "nome": "Sandra Maria Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Geraldo Magela M. Calçado"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "norma-lucia-dumont-reis",
+  "nome": "Norma Lúcia Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Adilson Reis Simões"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-carlos-dumont-reis",
+  "nome": "Antônio Carlos Dumont Reis",
+  "paiId": "maria-eugenia-dumont-reis",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-gomes",
+  "nome": "Pedro Gomes Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "gabriela",
+    "nome": "Gabriela Dumont"
+   },
+   {
+    "pessoaId": "rita-cassia",
+    "nome": "Rita Cássia Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-marilac-dumont",
+  "nome": "José Marilac Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Salomé Oliveira Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ana-anita-dumont",
+  "nome": "Ana Anita Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Alípio Manoel"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "guilherme-antonio-dumont",
+  "nome": "Guilherme Antônio Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "nome": "Ocimara Pires"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-eunice-dumont",
+  "nome": "Maria Eunice Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "nome": "José Maria Amancio Ferreira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "dirceu-dumont",
+  "nome": "Dirceu Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "nome": "Edelvais Seabra"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-azemar-dumont",
+  "nome": "José Azemar Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "nome": "Margarette Oliveira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-siria",
+  "nome": "Maria Síria Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "pessoaId": "goncalo-victor",
+    "nome": "Gonçalo Victor Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-helena-dumont",
+  "nome": "Maria Helena Dumont",
+  "paiId": "pedro-gomes",
+  "uniao": 2,
+  "conjuges": [
+   {
+    "nome": "Antônio José Pereira Kleinsorge"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-estela-dumont",
+  "nome": "Maria Estela Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Clarindo Geraldo Santos"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "claristela-dumont-santos",
+  "nome": "Claristela Dumont Santos",
+  "paiId": "maria-estela-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sebastião Canuto Araujo"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "clarisse-dumont-santos",
+  "nome": "Clarisse Dumont Santos",
+  "paiId": "maria-estela-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Aristides Alves dos Santos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "clariste-dumont-santos",
+  "nome": "Clariste Dumont Santos",
+  "paiId": "maria-estela-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Cordoval Geraldo da Cruz"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "estelindo-dumont-santos",
+  "nome": "Estelindo Dumont Santos",
+  "paiId": "maria-estela-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Marciana"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-gomes-f",
+  "nome": "Antonio Gomes Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rosália Farneze"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geraldo-dumont--antonio-gomes-f",
+  "nome": "Geraldo Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Terezinha Flecha Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gildete-tadeu-dumont",
+  "nome": "Gildete Tadeu Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gilberto-dumont",
+  "nome": "Gilberto Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Virgínia de Moraes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "giovani-dumont",
+  "nome": "Giovani Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sônia Cerqueira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "giselma-dumont",
+  "nome": "Giselma Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Edson do Socôrro Aguiar"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gilda-helena-dumont",
+  "nome": "Gilda Helena Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Wellington Baracho Ferreira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gilsoney-mauro-dumont",
+  "nome": "Gilsoney Mauro Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gerolisa-tereza-dumont",
+  "nome": "Gerolisa Tereza Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Romeo"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gislene-dumont",
+  "nome": "Gislene Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Loth Viana"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "getulio-antonio-dumont",
+  "nome": "Getúlio Antonio Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gildecio-farnese-dumont",
+  "nome": "Gildécio Farnese Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geni-leonor-dumont",
+  "nome": "Geni Leonor Dumont",
+  "paiId": "antonio-gomes-f",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-conceicao",
+  "nome": "Maria da Conceição Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rafael Gomes Barreto"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "otavio-gomes",
+  "nome": "Otávio Gomes Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Irene Barbosa"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "santos-gomes",
+  "nome": "Santos Gomes Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "paulo-gomes",
+  "nome": "Paulo Gomes Dumont",
+  "paiId": "antonio-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-dumont",
+  "nome": "José Dumont",
+  "paiId": "r5",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "alfredo-gomes-dumont",
+  "nome": "Alfredo Gomes Dumont",
+  "paiId": "r5",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-gomes",
+  "nome": "Victor Gomes Dumont",
+  "paiId": "r5",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Sanches de Moura"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-andrelina",
+  "nome": "Maria Andrelina Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-sanches",
+  "nome": "José Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "raimundo-sanches",
+  "nome": "Raimundo Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-sanches-dumont",
+  "nome": "Victor Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-sanches-dumont",
+  "nome": "Pedro Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-sanches-dumont",
+  "nome": "Francisco Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joaquim-sanches-dumont",
+  "nome": "Joaquim Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-vitalina-dumont",
+  "nome": "Maria Vitalina Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-sanches-dumont",
+  "nome": "Antonio Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Otilina de Alcantara Moura"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": "Cônjuge e filhos anotados a caneta na prancha",
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-dumont",
+  "nome": "Pedro Dumont",
+  "paiId": "antonio-sanches-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-helena-dumont--antonio-sanches-dumont",
+  "nome": "Maria Helena Dumont",
+  "paiId": "antonio-sanches-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ana-sanches-dumont",
+  "nome": "Ana Sanches Dumont",
+  "paiId": "victor-gomes",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r5",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6",
+  "nome": "Eufrosina Dumont",
+  "paiId": "victor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Luiz Gomes de Oliveira"
+   }
+  ],
+  "geracao": 1,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-vitor",
+  "nome": "Vitor Gomes Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Josefina Fonseca Gomes"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-alice-dumont",
+  "nome": "Maria Alice Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Joaquim Fagundes Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-fagundes-dumont",
+  "nome": "José Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Filomena Terezinha Oliveira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-da-conceicao-fagundes-dumont",
+  "nome": "Maria da Conceição Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Pitágoras Pereira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-raimunda-fagundes-dumont",
+  "nome": "Maria Raimunda Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Mário Barroso"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joaquim-fagundes-dumont",
+  "nome": "Joaquim Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Hilda Pimenta Miranda"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-da-purificacao-fagundes-dumont",
+  "nome": "Maria da Purificação Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Altivo Tavares do Amaral"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-fagundes-dumont",
+  "nome": "Victor Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ivalda Aguiar Fagundes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-fagundes-dumont",
+  "nome": "Antônio Fagundes Dumont",
+  "paiId": "maria-alice-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Sebastiana Fagundes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisca-gomes",
+  "nome": "Francisca Gomes Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Manoel Ribeiro Fagundes"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-dos-santos-fagundes-dumont",
+  "nome": "Maria dos Santos Fagundes Dumont",
+  "paiId": "francisca-gomes",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Gomes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "elenita-maria-fagundes-dumont",
+  "nome": "Elenita Maria Fagundes Dumont",
+  "paiId": "francisca-gomes",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Adelino Alves Fagundes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eufrosina-carlota-dumont",
+  "nome": "Eufrosina Carlota Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "carlota-gomes",
+  "nome": "Carlota Gomes Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "victor-soares",
+    "nome": "Victor Soares Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Casou-se com o primo Victor Soares Dumont; os filhos estão no ramo de João Batista",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-silvino",
+  "nome": "José Silvino Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "maria-jose-borba",
+    "nome": "Maria José Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-do-carmo-dumont",
+  "nome": "Maria do Carmo Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Jaime Pio Fernandes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-raimunda-dumont",
+  "nome": "Maria Raimunda Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Roni Porto"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-afonso-dumont",
+  "nome": "José Afonso Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Carmélia Gomes Dumont"
+   },
+   {
+    "nome": "Maria do Carmo Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-auxiliadora-dumont",
+  "nome": "Maria Auxiliadora Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José de Mattos Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-josefina-dumont",
+  "nome": "Maria Josefina Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Camilo Campos Aguiar"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "vitor-gomes-dumont",
+  "nome": "Vitor Gomes Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria do Amparo Aguiar Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eliana-de-fatima-dumont",
+  "nome": "Eliana de Fátima Dumont",
+  "paiId": "jose-silvino",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Jurandir Nascimento de Jesus"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "virginia-tereza-dumont",
+  "nome": "Virgínia Tereza Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rita-cassia",
+  "nome": "Rita Cássia Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Júlio Dumont"
+   },
+   {
+    "pessoaId": "pedro-gomes",
+    "nome": "Pedro Gomes Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Em segundas núpcias casou-se com o primo Pedro Gomes Dumont; os filhos estão no ramo de Policena",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-do-amparo-dumont",
+  "nome": "Maria do Amparo Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Francisco de Souza"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-dumont-de-souza",
+  "nome": "José Dumont de Souza",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria de Jesus Canuto"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "renata-marcia-canuto-dumont",
+  "nome": "Renata Márcia Canuto Dumont",
+  "paiId": "jose-dumont-de-souza",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Cícero Roberto de Oliveira Galdino"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "patricia-canuto-dumont",
+  "nome": "Patrícia Canuto Dumont",
+  "paiId": "jose-dumont-de-souza",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luciana-canuto-dumont",
+  "nome": "Luciana Canuto Dumont",
+  "paiId": "jose-dumont-de-souza",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geralda-marilia-dumont",
+  "nome": "Geralda Marília Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Hélcio José Lara"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "viviane-regina-dumont-lara",
+  "nome": "Viviane Regina Dumont Lara",
+  "paiId": "geralda-marilia-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "goncalo-victor",
+  "nome": "Gonçalo Victor Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "maria-siria",
+    "nome": "Maria Síria Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "paulo-henrique-dumont",
+  "nome": "Paulo Henrique Dumont",
+  "paiId": "goncalo-victor",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "claudia-helena-dumont",
+  "nome": "Claudia Helena Dumont",
+  "paiId": "goncalo-victor",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "cristina-mara-dumont",
+  "nome": "Cristina Mara Dumont",
+  "paiId": "goncalo-victor",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-josefina-dumont--maria-do-amparo-dumont",
+  "nome": "Maria Josefina Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rubens Anúncio de Araújo"
+   },
+   {
+    "nome": "Haroldo Antônio de Souza Silva"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "cristiane-angelica-dumont-araujo",
+  "nome": "Cristiane Angélica Dumont Araújo",
+  "paiId": "maria-josefina-dumont--maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "rubens-marcelo-dumont-araujo",
+  "nome": "Rubens Marcelo Dumont Araújo",
+  "paiId": "maria-josefina-dumont--maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ana Lúcia Brangioni"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "laura-marcia-dumont",
+  "nome": "Laura Márcia Dumont",
+  "paiId": "maria-josefina-dumont--maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Edson Dias dos Santos"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "haran-rodrigo-de-souza",
+  "nome": "Haran Rodrigo de Souza",
+  "paiId": "maria-josefina-dumont--maria-do-amparo-dumont",
+  "uniao": 2,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-francisco-dumont",
+  "nome": "Victor Francisco Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-da-conceicao-dumont",
+  "nome": "Maria da Conceição Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "lacordaire-francisco-dumont",
+  "nome": "Lacordaire Francisco Dumont",
+  "paiId": "maria-do-amparo-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Guiomar Marotti"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "debora-marotti-dumont",
+  "nome": "Débora Marotti Dumont",
+  "paiId": "lacordaire-francisco-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "igor-marotti-dumont",
+  "nome": "Igor Marotti Dumont",
+  "paiId": "lacordaire-francisco-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-maria-dores",
+  "nome": "Maria das Dores Dumont",
+  "paiId": "r6-vitor",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Pedro Almeida"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Uma das pranchas traz o cônjuge como \"José Pedro Maria\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-maria-de-almeida",
+  "nome": "José Maria de Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Nilza Gomes de Almeida"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-dumont-almeida",
+  "nome": "Victor Dumont Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Nacib Lauar de Almeida"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "edvaldo-braz-de-almeida",
+  "nome": "Edvaldo Braz de Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Martha Maria da Cruz"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "osvaldo-antonio-de-almeida",
+  "nome": "Osvaldo Antônio de Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Marilda Maria de Souza"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-inez-dumont-almeida",
+  "nome": "Maria Inez Dumont Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "mariza-indalez-almeida",
+  "nome": "Mariza Indalez Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "marilha-dumont-almeida",
+  "nome": "Marilha Dumont Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "olivaldo-luiz-almeida",
+  "nome": "Olivaldo Luiz Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Evanis Vale Almeida"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "evaldo-de-jesus-almeida",
+  "nome": "Evaldo de Jesus Almeida",
+  "paiId": "r6-maria-dores",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteiro",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-luiz",
+  "nome": "Luiz Gomes Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Albertina Fonseca Gomes"
+   },
+   {
+    "nome": "Ana Gomes"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-gomes-dumont",
+  "nome": "Luiz Gomes Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [
+   {
+    "nome": "Albertina Sanches"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "salvo-sanches-dumont",
+  "nome": "Salvo Sanches Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria de Oliveira Campos"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-otton-dumont",
+  "nome": "Luiz Otton Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Lucíola Pacheco"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-sanches-dumont",
+  "nome": "José Sanches Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Terezinha Batista"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-dalva-dumont",
+  "nome": "Maria Dalva Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "tereza-de-jesus-dumont",
+  "nome": "Tereza de Jesus Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Elcio Texeira Abrêu"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "vicente-sanches-dumont",
+  "nome": "Vicente Sanches Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Céli Maria Castro"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-sanches-dumont--luiz-gomes-dumont",
+  "nome": "Antonio Sanches Dumont",
+  "paiId": "luiz-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Terezinha Diniz"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "redelvim-gomes-dumont",
+  "nome": "Redelvim Gomes Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [
+   {
+    "nome": "Maria Vargas"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "demostenes-dumont-vargas",
+  "nome": "Demóstenes Dumont Vargas",
+  "paiId": "redelvim-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antonia Zulma Dumont"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-umbelina-dumont",
+  "nome": "Maria Umbelina Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Valdir Francisco Veronese"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "angela-dumont",
+  "nome": "Ângela Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Boaventura Teixeira"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "hamilcar-diniz-dumont",
+  "nome": "Hamilcar Diniz Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Inês Torres"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "paulo-sergio-diniz-dumont",
+  "nome": "Paulo Sérgio Diniz Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sandra Sukar Sampaio"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "savia-diniz-dumont",
+  "nome": "Sávia Diniz Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Herculano Timóteo Teixeira Neto"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "demostenes-dumont-vargas-filho",
+  "nome": "Demóstenes Dumont Vargas Filho",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteiro",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "martha-diniz-dumont",
+  "nome": "Martha Diniz Dumont",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Regolo Jannuzi Cecchettini"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "redelvim-dumont-neto",
+  "nome": "Redelvim Dumont Neto",
+  "paiId": "demostenes-dumont-vargas",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sandra Torres"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "vitalina-vargas-dumont",
+  "nome": "Vitalina Vargas Dumont",
+  "paiId": "redelvim-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antonio Ribeiro Parrode"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-parrode-filho",
+  "nome": "Antônio Parrode Filho",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Olímpia"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonieta-parrode",
+  "nome": "Antonieta Parrode",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Roberto"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-antonio-parrode",
+  "nome": "Luiz Antônio Parrode",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sandra"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-de-fatima-parrode",
+  "nome": "Maria de Fátima Parrode",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Salvino"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Na prancha consta apenas \"Maria de Fátima\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eduardo-parrode",
+  "nome": "Eduardo Parrode",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Marister"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "fernando-augusto-parrode",
+  "nome": "Fernando Augusto Parrode",
+  "paiId": "vitalina-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Na prancha consta apenas \"Fernando Augusto\"",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-vargas-dumont",
+  "nome": "Luiz Vargas Dumont",
+  "paiId": "redelvim-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Terezinha Arantes"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-otavio",
+  "nome": "Luiz Otávio",
+  "paiId": "luiz-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "almerinda",
+  "nome": "Almerinda",
+  "paiId": "luiz-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eduardo",
+  "nome": "Eduardo",
+  "paiId": "luiz-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "cristiane",
+  "nome": "Cristiane",
+  "paiId": "luiz-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "benedito-vargas-dumont",
+  "nome": "Benedito Vargas Dumont",
+  "paiId": "redelvim-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Rosa Gomide"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "viviane",
+  "nome": "Viviane",
+  "paiId": "benedito-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "mariangela-vargas-dumont",
+  "nome": "Mariângela Vargas Dumont",
+  "paiId": "redelvim-gomes-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Jacques Pereira"
+   }
+  ],
+  "geracao": 4,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jacques-pereira-filho",
+  "nome": "Jacques Pereira Filho",
+  "paiId": "mariangela-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Joana D'arc de Freitas"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "juliana-dumont-pereira",
+  "nome": "Juliana Dumont Pereira",
+  "paiId": "mariangela-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Elder Antônio Antonele"
+   }
+  ],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": true,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joao-redelvim",
+  "nome": "João Redelvim",
+  "paiId": "mariangela-vargas-dumont",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 5,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eufrosina-gomes-dumont",
+  "nome": "Eufrosina Gomes Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [
+   {
+    "nome": "Manoel Andrade"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "policena-gomes-dumont",
+  "nome": "Policena Gomes Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [
+   {
+    "nome": "Genésio Álvares"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ernesto-gomes-dumont",
+  "nome": "Ernesto Gomes Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-calazans-dumont",
+  "nome": "José Calazans Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [
+   {
+    "nome": "Maria Josefina"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-eulalia-dumont",
+  "nome": "Maria Eulália Dumont",
+  "paiId": "r6-luiz",
+  "uniao": 0,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-jose-sebastiao",
+  "nome": "José Sebastião Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ana Fonseca Gomes"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-anunciacao-de-oliveira",
+  "nome": "José Anunciação de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-geraldo-de-oliveira",
+  "nome": "Luiz Geraldo de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-das-merces-oliveira",
+  "nome": "Maria das Mercês Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Valdivino Mateus Lopes"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "raimundo-gomes-de-oliveira",
+  "nome": "Raimundo Gomes de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Algemira Campos"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-gomes-de-oliveira",
+  "nome": "Francisco Gomes de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Emídia Carvalho"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-gomes-de-oliveira",
+  "nome": "Pedro Gomes de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Hermínia de Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "ana-carlota-de-oliveira",
+  "nome": "Ana Carlota de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Solteira, sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "virginia-dulce-de-oliveira",
+  "nome": "Virgínia Dulce de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Cassimiro Fernandes"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joao-batista-de-oliveira",
+  "nome": "João Batista de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ilda de Moraes Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eli-constantino-de-oliveira",
+  "nome": "Eli Constantino de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Jandira Rocha de Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "zelia-ribeiro-de-oliveira",
+  "nome": "Zélia Ribeiro de Oliveira",
+  "paiId": "r6-jose-sebastiao",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "João Ribeiro da Silva"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-pedro-henrique",
+  "nome": "Pedro Henrique Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Carlota da Fonseca Dumont"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "francisco-gomes-dumont",
+  "nome": "Francisco Gomes Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Amália Alaide Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "conceicao-ph",
+  "nome": "Maria da Conceição Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "jose-aureliano",
+    "nome": "José Aureliano de Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "joao-baptista-dumont",
+  "nome": "João Baptista Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria da Conceição Costa"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "paulo-gomes-dumont",
+  "nome": "Paulo Gomes Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Lauriana Rosa Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-augusto-dumont",
+  "nome": "Pedro Augusto Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "eufrosina-dumont-silva",
+  "nome": "Eufrosina Dumont Silva",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Joaquim Hipólito Silva"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-fonseca-dumont",
+  "nome": "José Fonseca Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Ormenzina Silva Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "margarida-maria-dumont-matos",
+  "nome": "Margarida Maria Dumont Matos",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Moacir de Matos Silva"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "carlota-fonseca-dumont",
+  "nome": "Carlota Fonseca Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Sila Araújo"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gabriela",
+  "nome": "Gabriela Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "pedro-gomes",
+    "nome": "Pedro Gomes Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Casou-se com o primo Pedro Gomes Dumont; os filhos estão no ramo de Policena",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-gonzaga-dumont",
+  "nome": "Luiz Gonzaga Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Armanda Pinto Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-lourdes",
+  "nome": "Maria de Lourdes Dumont",
+  "paiId": "r6-pedro-henrique",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "jose-geraldo",
+    "nome": "José Geraldo Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-virginia",
+  "nome": "Virgínia Gomes Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Francisco Guerra"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-salome",
+  "nome": "Maria Salomé Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antonino Gomes Oliveira"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-aureliano",
+  "nome": "José Aureliano de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "pessoaId": "conceicao-ph",
+    "nome": "Maria da Conceição Dumont"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "raimundo-gomes-de-oliveira--r6-salome",
+  "nome": "Raimundo Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "lincoln-gomes-de-oliveira",
+  "nome": "Lincoln Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria da Conceição Gomes"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "levy-gomes-de-oliveira",
+  "nome": "Levy Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Elza"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "geraldo-gomes-de-oliveira",
+  "nome": "Geraldo Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Maria Meira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-gomes-de-oliveira",
+  "nome": "Antônio Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "carlota-gomes-de-oliveira",
+  "nome": "Carlota Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Teodoro Meira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "helena-gomes-de-oliveira",
+  "nome": "Helena Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Antônio Gomes de Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "victor-gomes-de-oliveira",
+  "nome": "Victor Gomes de Oliveira",
+  "paiId": "r6-salome",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Inêz Ferreira Sá"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "r6-ana-candida",
+  "nome": "Ana Cândida Dumont",
+  "paiId": "r6",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "José Gomes Oliveira"
+   }
+  ],
+  "geracao": 2,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "jose-joaquim-de-oliveira",
+  "nome": "José Joaquim de Oliveira",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Izabel Clara de Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "antonio-gomes-de-oliveira--r6-ana-candida",
+  "nome": "Antônio Gomes de Oliveira",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Margarida Maria Araújo"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "pedro-gomes-de-oliveira--r6-ana-candida",
+  "nome": "Pedro Gomes de Oliveira",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Agustinha Oliveira"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "luiz-gomes-de-oliveira-neto",
+  "nome": "Luiz Gomes de Oliveira Neto",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "gabriel-gomes-de-oliveira",
+  "nome": "Gabriel Gomes de Oliveira",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": "Sem descendentes",
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ },
+ {
+  "id": "maria-amelia-de-oliveira",
+  "nome": "Maria Amélia de Oliveira",
+  "paiId": "r6-ana-candida",
+  "uniao": 1,
+  "conjuges": [
+   {
+    "nome": "Welinton Gomes Fonseca"
+   }
+  ],
+  "geracao": 3,
+  "troncoId": "victor",
+  "ramoId": "r6",
+  "nota": null,
+  "duvidoso": false,
+  "status": "verificado",
+  "origem": "esboco-genealogico"
+ }
+]

@@ -1,0 +1,212 @@
+---
+import { Image } from 'astro:assets';
+import brasao from '../assets/brasao.jpeg';
+import { MENU, SITE } from '../config';
+import '../styles/global.css';
+
+interface Props {
+  titulo?: string;
+  descricao?: string;
+}
+
+const { titulo, descricao = SITE.descricao } = Astro.props;
+const tituloCompleto = titulo ? `${titulo} · ${SITE.nome}` : `${SITE.nome} · História e Árvore Genealógica`;
+const caminho = Astro.url.pathname;
+const ativo = (href: string) => (href === '/' ? caminho === '/' : caminho.startsWith(href));
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloCompleto}</title>
+    <meta name="description" content={descricao} />
+    <meta property="og:title" content={tituloCompleto} />
+    <meta property="og:description" content={descricao} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href={brasao.src} />
+  </head>
+  <body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header class="topo">
+      <div class="container topo-interno">
+        <a class="marca" href="/">
+          <Image src={brasao} alt="" width={96} height={96} />
+          <span>Família <strong>Dumont</strong></span>
+        </a>
+        <button class="menu-botao" aria-expanded="false" aria-controls="menu">Menu</button>
+        <nav id="menu" aria-label="Principal">
+          <ul>
+            {
+              MENU.map((item) => (
+                <li>
+                  <a href={item.href} aria-current={ativo(item.href) ? 'page' : undefined}>
+                    {item.rotulo}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <slot />
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape-interno">
+        <div>
+          <p class="rodape-marca">Família Dumont</p>
+          <p>Se é Dumont, é parente e da mesma linhagem vinda da França.</p>
+        </div>
+        <ul>
+          {
+            MENU.map((item) => (
+              <li>
+                <a href={item.href}>{item.rotulo}</a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      const botao = document.querySelector<HTMLButtonElement>('.menu-botao')!;
+      const menu = document.getElementById('menu')!;
+      botao.addEventListener('click', () => {
+        const aberto = menu.classList.toggle('aberto');
+        botao.setAttribute('aria-expanded', String(aberto));
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .pular {
+    position: absolute;
+    left: -999px;
+  }
+  .pular:focus {
+    left: 1rem;
+    top: 1rem;
+    z-index: 20;
+    padding: 0.5rem 1rem;
+    background: #fff;
+  }
+  .topo {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--papel-claro);
+    border-bottom: 1px solid var(--linha);
+  }
+  .topo-interno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-block: 0.6rem;
+  }
+  .marca {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: var(--serifa);
+    font-size: 1.5rem;
+    color: var(--tinta);
+    text-decoration: none;
+  }
+  .marca img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+  .marca strong {
+    color: var(--vinho);
+  }
+  nav ul {
+    display: flex;
+    gap: 0.25rem 1.4rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav a {
+    display: block;
+    padding: 0.35rem 0;
+    border-bottom: 2px solid transparent;
+    color: var(--tinta);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+  nav a:hover,
+  nav a[aria-current='page'] {
+    border-bottom-color: var(--vinho);
+    color: var(--vinho);
+  }
+  .menu-botao {
+    display: none;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--linha);
+    background: transparent;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  @media (max-width: 56rem) {
+    .menu-botao {
+      display: block;
+    }
+    nav {
+      display: none;
+      width: 100%;
+    }
+    nav.aberto {
+      display: block;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-bottom: 0.5rem;
+    }
+  }
+  .rodape {
+    margin-top: 0;
+    background: var(--vinho-escuro);
+    color: #ead9c0;
+  }
+  .rodape-interno {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-block: 2.5rem;
+  }
+  .rodape-marca {
+    font-family: var(--serifa);
+    font-size: 1.6rem;
+    color: #fff;
+    margin: 0;
+  }
+  .rodape p {
+    margin: 0;
+  }
+  .rodape ul {
+    display: flex;
+    gap: 0.4rem 1.4rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .rodape a {
+    color: #ead9c0;
+  }
+</style>

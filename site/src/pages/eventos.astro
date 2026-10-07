@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { formatarData } from '../config';
+
+const eventos = (await getCollection('eventos')).sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
+const hoje = new Date();
+const grupos = [
+  { titulo: 'Próximos eventos', itens: eventos.filter((e) => e.data.data >= hoje).reverse() },
+  { titulo: 'Eventos realizados', itens: eventos.filter((e) => e.data.data < hoje) },
+].filter((g) => g.itens.length);
+---
+
+<Base titulo="Eventos" descricao="Os encontros da Família Dumont: os que já aconteceram e os que estão por vir.">
+  <section class="container cabecalho-pagina">
+    <p class="sobretitulo">Eventos</p>
+    <h1>Os encontros da família</h1>
+    <p class="lead estreito">
+      Reunir os Dumont é a melhor forma de manter a história viva. Aqui ficam registrados os encontros da família.
+    </p>
+  </section>
+
+  {
+    grupos.map((g) => (
+      <section class="container secao">
+        <h2>{g.titulo}</h2>
+        <div class="lista">
+          {g.itens.map(async (e) => {
+            const { Content } = await render(e);
+            return (
+              <article class="cartao">
+                <p class="meta">
+                  {formatarData(e.data.data)} · {e.data.local}
+                  {e.data.exemplo && <span class="etiqueta">Exemplo</span>}
+                </p>
+                <h3>{e.data.titulo}</h3>
+                <p>{e.data.resumo}</p>
+                <div class="prosa">
+                  <Content />
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ))
+  }
+</Base>
+
+<style>
+  .lista {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 50rem;
+  }
+  .prosa {
+    margin-top: 0.8rem;
+  }
+  .etiqueta {
+    margin-left: 0.5rem;
+  }
+</style>

@@ -1,0 +1,17 @@
+{
+  "name": "familia-dumont",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "arvore": "node scripts/gerar-arvore.mjs",
+    "dev": "npm run arvore && astro dev",
+    "build": "npm run arvore && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "astro": "^7.3.6"
+  }
+}

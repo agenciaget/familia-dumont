@@ -1,0 +1,16 @@
+# Dependências e arquivos gerados
+node_modules/
+dist/
+.astro/
+
+# Materiais originais (o repositório é público): proposta comercial,
+# pranchas escaneadas e arquivos de edição ficam só na máquina local.
+/Proposta Comercial*.pdf
+/árvore/
+/Banner FD/
+/A Familia Dumont.docx
+/Brasão família Dumont.jpeg
+
+.env
+.DS_Store
+Thumbs.db
